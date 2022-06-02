@@ -1,5 +1,5 @@
 <template>
-  <section class="oversigt">
+  <section class="container mx-auto">
     <div v-if="collection">
       <Html>
         <Head>
@@ -7,10 +7,10 @@
           <Meta name="description" :content="collection?.description ?? ''" />
         </Head>
       </Html>
-      <div>
-        <Breadcrumbs></Breadcrumbs>
-        <!-- <CategorySlider :categories="categories"></CategorySlider> -->
-      </div>
+      <CollectionHeader
+        :title="collection?.title ?? ''"
+        :description="collection?.descriptionHtml ?? ''"
+      />
       <div v-if="collection?.products?.edges">
         <ProductGrid>
           <ProductCard
@@ -31,7 +31,6 @@
 <script setup lang="ts">
 import { useQuery, useResult } from "@vue/apollo-composable";
 import { collectionByHandle } from "~/apollo/queries/collectionByHandle";
-import { Links } from "~/constants";
 
 const route = useRoute();
 const handle = route.params.collection;
@@ -41,7 +40,4 @@ const { result, error } = useQuery(collectionByHandle, {
   numProducts: 48,
 });
 const collection = useResult(result, null, (data) => data.collectionByHandle);
-
-// const categories = Links.find((link) => link.title === handle);
-// console.log(Links.find((link) => link.title == route.params.collection));
 </script>

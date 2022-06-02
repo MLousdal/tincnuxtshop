@@ -1,5 +1,8 @@
 <template>
-  <NuxtLink to="/" aria-label="Hjem" class="logo">
-    <img src="/logo.svg" alt="" />
+  <NuxtLink
+    to="/"
+    class="text-lg tracking-wider justify-self-center md:justify-self-start"
+  >
+    <span class="font-bold">NUXT</span><span>SHOP</span>
   </NuxtLink>
 </template>

@@ -1,69 +1,36 @@
 <template>
-  <footer class="footer">
-    <div class="wrapper">
-      <div class="footer-column">
-        <h3>Kontakt</h3>
-        <ul>
-          <li class="flex flex-gap-1 flex-align-center">
-            <img
-              src="/icons/email.svg"
-              alt=""
-              class="icon m"
-            />kontakt@tinc.shop
-          </li>
-          <li class="flex flex-gap-1 flex-align-center">
-            <img src="/icons/phone.svg" alt="" class="icon m" />25 50 54 45
-          </li>
-          <li>CVR: 38459570</li>
-          <hr />
-          <address>
-            TINC Aarhus <br />
-            Frederiksgade 22 <br />
-            8000 Aarhus C
-          </address>
-          <address>
-            TINC Aalborg <br />
-            Møllegade 6A <br />
-            9000 Aalborg
-          </address>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Information</h3>
-        <ul>
-          <li><NuxtLink to="/">Åbningstider</NuxtLink></li>
-          <li><NuxtLink to="/">Gavekort</NuxtLink></li>
-          <li><NuxtLink to="/">Tilbagetrækninger</NuxtLink></li>
-          <li><NuxtLink to="/">FAQ</NuxtLink></li>
-          <li><NuxtLink to="/">Job</NuxtLink></li>
-          <li><NuxtLink to="/">Sitemap</NuxtLink></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Følg os</h3>
-        <ul>
-          <li class="flex flex-gap-1">
-            <a href="https://www.facebook.com/TINC.SHOP" target="_blank"
-              ><img src="/icons/facebook.svg" alt="facebook" /></a
-            ><a href="https://www.instagram.com/tinc.shop/" target="_blank"
-              ><img src="/icons/instagram.svg" alt="instagram"
-            /></a>
-          </li>
-          <li class="small">Copyright & Copy 2022 Tinc.shop.</li>
-          <li class="small">Drevet af Shopify</li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Regler og vilkår</h3>
-        <ul>
-          <li><NuxtLink to="/">Betaling og levering</NuxtLink></li>
-          <li><NuxtLink to="/">Reklamation og retunering</NuxtLink></li>
-          <li><NuxtLink to="/">Persondatapolitik</NuxtLink></li>
-          <li><NuxtLink to="/">Cookies</NuxtLink></li>
-          <li><NuxtLink to="/">Returprotal</NuxtLink></li>
-          <li><NuxtLink to="/">Kontrol rapport</NuxtLink></li>
-        </ul>
+  <footer
+    class="flex items-center justify-center min-h-[10rem] bg-black text-gray-300"
+  >
+    <div class="text-sm text-center">
+      <a
+        href="https://github.com/justinmetros/NuxtShop"
+        target="_blank"
+        class="block mb-2 text-white"
+      >
+        <svg
+          aria-label="Github Repository"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="inline fill-current"
+        >
+          <path
+            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+          />
+        </svg>
+      </a>
+      <div class="text-xs text-gray-400">
+        Made with <HeartIcon class="inline w-4" /> by
+        <a href="https://github.com/justinmetros" target="_blank"
+          >@justinmetros</a
+        >
       </div>
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+import HeartIcon from "@heroicons/vue/solid/HeartIcon.js";
+</script>

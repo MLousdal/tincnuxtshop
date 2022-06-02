@@ -1,19 +1,31 @@
 <template>
-  <div class="product">
-    <NuxtLink :to="productPath" class="product-img-link">
-      <img :src="src" :alt="product.handle" />
-    </NuxtLink>
-    <!-- <div v-if="tag" class="product-tag" :class="tag">{{ tag }}</div> -->
-    <FavoriteBtn></FavoriteBtn>
-    <input type="image" src="/icons/addCart.svg" class="addToCartBtn" />
-    <NuxtLink :to="productPath" class="product-text" tabindex="-1">
-      <p>{{ product.title }}</p>
-      <p class="bold">{{ product.priceRange.minVariantPrice.amount }} kr.</p>
-    </NuxtLink>
-  </div>
+  <NuxtLink v-if="product" :to="productPath" class="mb-4">
+    <ProductImage
+      :alt="product.handle"
+      :height="height"
+      :lazy="index > lazyLoadingThreshold"
+      :sizes="sizes"
+      :srcset="srcset"
+      :width="width"
+      class="mb-2"
+    />
+    <ProductTitle
+      tag="div"
+      :title="product.title"
+      class="text-sm font-medium"
+    />
+    <ProductPrice
+      :priceRange="product.priceRange"
+      :compareAtPriceRange="product.compareAtPriceRange"
+      class="text-sm"
+    />
+  </NuxtLink>
 </template>
 
 <script setup lang="ts">
+import { breakpointsTailwind } from "@vueuse/core";
+import { getSrcset } from "~/utils/images";
+
 const props = defineProps<{
   product: ProductCard;
   index?: number;
@@ -23,4 +35,8 @@ const productPath = `/products/${props.product.handle}`;
 
 const lazyLoadingThreshold = 7;
 const src = props.product?.images?.edges[0]?.node?.url ?? "";
+const width = props.product?.images?.edges[0]?.node?.width ?? "";
+const height = props.product?.images?.edges[0]?.node?.height ?? "";
+const sizes = `(max-width: ${breakpointsTailwind.md}px) 45vw, 20vw`;
+const srcset = getSrcset(src);
 </script>

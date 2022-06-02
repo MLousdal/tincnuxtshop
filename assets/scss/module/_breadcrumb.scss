@@ -1,0 +1,30 @@
+.breadcrumb {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-3);
+
+  a[href]:not(:last-of-type)::after {
+    content: url("/icons/arrow-small.svg");
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7500%)
+      hue-rotate(327deg) brightness(96%) contrast(104%);
+    margin-left: 1.25rem;
+    position: relative;
+    top: 0.15rem;
+  }
+
+  button {
+    all: initial;
+    display: flex;
+    gap: var(--size-3);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-3);
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+  }
+
+  .router-link-exact-active,
+  .disabled {
+    font-weight: var(--font-weight-7);
+  }
+}

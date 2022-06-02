@@ -6,7 +6,7 @@
     :srcset="srcset"
     :sizes="sizes"
     :width="width"
-    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    :src="src"
   />
 </template>
 
@@ -15,10 +15,10 @@ const props = defineProps<{
   alt?: string;
   height: string | number;
   lazy?: boolean;
-  sizes?: string;
+  src: string;
   srcset: string;
   width: string | number;
 }>();
 
-const { alt, height, lazy, sizes, srcset, width } = toRefs(props);
+const { alt, height, lazy, src, srcset, width } = toRefs(props);
 </script>

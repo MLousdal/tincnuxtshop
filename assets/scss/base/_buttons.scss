@@ -1,0 +1,59 @@
+@use "@/assets/scss/base/media" as *;
+
+.btn,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  background-color: var(--contrast);
+  border-radius: var(--radius-round);
+  box-shadow: var(--shadow-1);
+  color: var(--text-1);
+  font-size: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  padding-block: var(--size-2);
+  padding-inline: var(--size-3);
+  transition: box-shadow 0.2s linear, background-color 0.2s linear;
+
+  &:hover,
+  &:focus {
+    background-color: hsl(231, 89%, 77%);
+    box-shadow: var(--shadow-2);
+  }
+
+  &.outline {
+    background-color: transparent;
+    border: var(--border-size-1) var(--contrast) solid;
+    color: var(--contrast);
+
+    &:hover,
+    &:focus {
+      background-color: hsl(231, 89%, 77%);
+      color: var(--text-1);
+    }
+  }
+}
+
+input:disabled {
+  background-color: var(--gray-6);
+  box-shadow: none;
+  cursor: not-allowed;
+
+  &:hover,
+  &:focus {
+    background-color: var(--gray-6);
+    box-shadow: none;
+  }
+}
+
+select {
+  padding-inline: var(--size-2);
+  padding-block: var(--size-1);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  block-size: var(--size-3);
+  inline-size: var(--size-3);
+}

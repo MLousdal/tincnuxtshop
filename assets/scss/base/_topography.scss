@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  // Generated using https://www.fluid-type-scale.com/
+  --font-size-1: clamp(11.67px, 0.32vw + 10.38px, 15px);
+  --font-size-2: clamp(14px, 0.38vw + 12.46px, 18px);
+  --font-size-3: clamp(16.8px, 0.46vw + 14.95px, 21.6px);
+  --font-size-4: clamp(20.16px, 0.55vw + 17.94px, 25.92px);
+  --font-size-5: clamp(24.19px, 0.66vw + 21.53px, 31.1px);
+  --font-size-6: clamp(29.03px, 0.8vw + 25.84px, 37.32px);
+  --font-size-7: clamp(34.84px, 0.96vw + 31.01px, 44.79px);
+  --font-size-8: clamp(41.8px, 1.15vw + 37.21px, 53.75px);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: var(--font-size-2);
+  line-height: var(--font-lineheight-3);
+  color: var(--font-color);
+  -webkit-text-size-adjust: none; /* https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/ */
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  line-height: var(--font-lineheight-1);
+  font-weight: var(--font-weight-7);
+  position: relative;
+  width: fit-content;
+}
+h1 {
+  font-size: var(--font-size-7);
+  max-inline-size: var(--size-header-1);
+}
+h2 {
+  font-size: var(--font-size-6);
+  max-inline-size: var(--size-header-2);
+  &::before {
+    content: "";
+    background-image: url("/title-blob.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 120%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: var(--size-3);
+  }
+}
+h3 {
+  font-size: var(--font-size-5);
+}
+h4 {
+  font-size: var(--font-size-4);
+}
+h5 {
+  font-size: var(--font-size-3);
+}
+h6 {
+  font-size: var(--font-size-1);
+}
+
+h3,
+h4,
+h5,
+h6,
+dt {
+  max-inline-size: var(--size-header-3);
+}
+
+p,
+ul,
+ol,
+dl,
+h6 {
+  font-size: var(--font-size-2);
+}
+
+a,
+u,
+ins,
+abbr {
+  text-underline-offset: 1px;
+}
+
+a[href],
+area,
+button,
+input,
+label[for],
+select,
+summary,
+textarea,
+[tabindex]:not([tabindex*="-"]) {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+a {
+  padding-inline: var(--size-1);
+  margin-inline: calc(var(--size-1) * -1);
+  padding-block: var(--size-1);
+  margin-block: calc(var(--size-1) * -1);
+
+  &:not(:hover) {
+    text-decoration: inherit;
+  }
+}
+
+small,
+.small {
+  font-size: var(--font-size-1);
+}
+
+b,
+.bold {
+  font-weight: var(--font-weight-7);
+}
+
+strong {
+  font-weight: var(--font-weight-9);
+}
+
+em,
+i,
+dfn,
+cite,
+var {
+  font-style: italic;
+}
+
+ins {
+  text-decoration: underline;
+}
+
+mark {
+  background-color: var(--color-primary-light);
+  color: var(--font-color-inverse);
+}

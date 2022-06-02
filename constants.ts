@@ -9,8 +9,16 @@ export const navLinks: NavLink[] = [
     path: "/",
   },
   {
-    label: "Products",
-    path: "/collections/all",
+    label: "Personlig pleje",
+    path: "/collections/personlig-pleje",
+  },
+  {
+    label: "Hår",
+    path: "/collections/har",
+  },
+  {
+    label: "Kosmetik",
+    path: "/collections/kosmetik",
   },
   {
     label: "About",

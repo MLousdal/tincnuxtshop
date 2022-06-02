@@ -1,0 +1,22 @@
+.filter {
+  &-btn,
+  &-select {
+    display: flex;
+    gap: var(--size-2);
+    align-items: center;
+    background: var(--surface-1);
+    border-radius: 0;
+    border: var(--border-size-1) solid var(--gray-9);
+    color: var(--text-2);
+
+    &:hover,
+    &:focus {
+      background-color: var(--gray-3);
+    }
+  }
+
+  &-select {
+    padding-block: var(--size-2);
+    padding-inline: var(--size-3);
+  }
+}

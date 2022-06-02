@@ -1,0 +1,40 @@
+.blog-posts {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--size-8);
+  @media screen and (max-width: 950px) {
+    flex-direction: column;
+  }
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0px;
+  gap: var(--size-3);
+
+  &[href] {
+    color: var(--text-2);
+    transition: transform 0.2s ease;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+    &:hover img,
+    &:focus img {
+      transform: scale(1.05);
+    }
+  }
+
+  &-img {
+    overflow: hidden;
+    img {
+      aspect-ratio: 1;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.2s ease;
+    }
+  }
+}

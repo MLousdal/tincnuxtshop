@@ -1,5 +1,4 @@
 {
-  "tailwindCSS.emmetCompletions": true,
   "volar.codeLens.scriptSetupTools": true,
   "scss.lint.unknownAtRules": "ignore",
   "css.lint.unknownAtRules": "ignore",

@@ -42,7 +42,6 @@
 
 <script setup lang="ts">
 import { useQuery, useResult } from "@vue/apollo-composable";
-import { breakpointsTailwind } from "@vueuse/core";
 import { getSrcset } from "~/utils/images";
 import { productByHandle } from "~/apollo/queries/productByHandle";
 import { productVariantsByHandle } from "~/apollo/queries/productVariantsByHandle";
@@ -63,7 +62,7 @@ variants.value = initialVariants;
 
 // Product Image
 const src = computed(() => product.value.images?.edges[0]?.node?.url ?? "");
-const sizes = `(max-width: ${breakpointsTailwind.md}px) 95vw, 40vw`;
+const sizes = `(max-width: 300px) 95vw, 40vw`;
 const srcset = computed(() => getSrcset(src.value || ""));
 
 // Fetch fresh inventory on client

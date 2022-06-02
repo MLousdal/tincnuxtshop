@@ -1,0 +1,44 @@
+.footer {
+  background-color: var(--brand);
+  padding-block: var(--size-8);
+  color: var(--text-1);
+
+  .wrapper {
+    gap: var(--size-6);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    @media screen and (max-width: 950px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-7);
+
+  h3 {
+    color: var(--text-1);
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-3);
+
+    a[href] {
+      color: var(--text-1);
+    }
+  }
+
+  hr {
+    margin-block: var(--size-3);
+  }
+}

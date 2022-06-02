@@ -1,0 +1,28 @@
+summary {
+  background: var(--surface-2);
+  padding: var(--size-2) var(--size-3);
+  margin: calc(var(--size-2) * -1) calc(var(--size-3) * -1);
+  border-radius: var(--radius-1);
+  font-family: var(--font-serif);
+  position: relative;
+
+  &::marker {
+    position: absolute;
+    left: 5rem;
+  }
+}
+
+details {
+  border-bottom: var(--border-size-1) var(--gray-9) solid;
+  padding-inline: var(--size-3);
+  padding-block: var(--size-2);
+  background: var(--surface-2);
+  border-radius: var(--radius-2);
+  transition: all 0.3s ease-in;
+}
+
+details[open] > summary {
+  margin-bottom: var(--size-2);
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
+}

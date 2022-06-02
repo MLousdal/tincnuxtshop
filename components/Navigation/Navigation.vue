@@ -17,18 +17,14 @@
 
 <script setup>
 import { navLinks } from "~/constants";
-import { useShopStore } from "~/stores/shop";
-import { breakpointsTailwind, useBreakpoints } from "@vueuse/core";
 
-const shopStore = useShopStore();
-const menuOpen = computed(() => shopStore.menuOpen);
+// const shopStore = useShopStore();
+// const menuOpen = computed(() => shopStore.menuOpen);
 
 const route = useRoute();
-const breakpoints = useBreakpoints(breakpointsTailwind);
-const isMobileUI = breakpoints.smaller("md");
 const menu = ref(null);
 
-watch(route, () => (isMobileUI ? shopStore.toggleMenu(false) : null));
+// watch(route, () => (isMobileUI ? shopStore.toggleMenu(false) : null));
 </script>
 
 <style lang="postcss">

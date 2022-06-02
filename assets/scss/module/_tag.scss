@@ -1,0 +1,13 @@
+.tag {
+  background-color: var(--secondary);
+  padding-block: var(--size-2);
+  padding-inline: var(--size-3);
+  border-radius: var(--radius-round);
+  display: flex;
+  gap: var(--size-2);
+
+  input {
+    all: initial;
+    cursor: pointer;
+  }
+}

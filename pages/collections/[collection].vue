@@ -23,7 +23,7 @@
       </div>
       <div v-else></div>
     </div>
-    <div v-else></div>
+    <h1 v-else>Oh no...</h1>
     <div v-if="error">Error</div>
   </section>
 </template>

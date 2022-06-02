@@ -12,8 +12,7 @@
       </Html>
       <ProductImage
         :alt="product.handle"
-        :sizes="sizes"
-        :srcset="srcset"
+        :src="product.images?.edges[0]?.node?.url ?? ''"
         :width="product.images?.edges[0]?.node?.width ?? ''"
         :height="product.images?.edges[0]?.node?.height ?? ''"
         class=""

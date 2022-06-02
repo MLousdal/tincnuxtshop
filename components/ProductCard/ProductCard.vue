@@ -1,30 +1,28 @@
 <template>
-  <NuxtLink v-if="product" :to="productPath" class="mb-4">
-    <ProductImage
-      :alt="product.handle"
-      :height="height"
-      :lazy="index > lazyLoadingThreshold"
-      :sizes="sizes"
-      :srcset="srcset"
-      :width="width"
-      class="mb-2"
-    />
-    <ProductTitle
-      tag="div"
-      :title="product.title"
-      class="text-sm font-medium"
-    />
-    <ProductPrice
-      :priceRange="product.priceRange"
-      :compareAtPriceRange="product.compareAtPriceRange"
-      class="text-sm"
-    />
-  </NuxtLink>
+  <div class="product" v-if="product">
+    <NuxtLink :to="productPath" class="product-img-link">
+      <ProductImage
+        :alt="product.handle"
+        :lazy="index > lazyLoadingThreshold"
+        :src="src"
+      />
+    </NuxtLink>
+    <NuxtLink :to="productPath" class="product-text" tabindex="-1">
+      <ProductTitle
+        tag="p"
+        :title="product.title"
+        class="text-sm font-medium"
+      />
+      <ProductPrice
+        :priceRange="product.priceRange"
+        :compareAtPriceRange="product.compareAtPriceRange"
+        class="bold"
+      />
+    </NuxtLink>
+  </div>
 </template>
 
 <script setup lang="ts">
-import { getSrcset } from "~/utils/images";
-
 const props = defineProps<{
   product: ProductCard;
   index?: number;
@@ -34,8 +32,4 @@ const productPath = `/products/${props.product.handle}`;
 
 const lazyLoadingThreshold = 7;
 const src = props.product?.images?.edges[0]?.node?.url ?? "";
-const width = props.product?.images?.edges[0]?.node?.width ?? "";
-const height = props.product?.images?.edges[0]?.node?.height ?? "";
-const sizes = `(max-width: 300px) 45vw, 20vw`;
-const srcset = getSrcset(src);
 </script>

@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       "@apollo/client",
       "@vue/apollo-composable",
       "ts-invariant/process",
+      "@splidejs/vue-splide",
     ],
     postcss: {
       postcssOptions: {

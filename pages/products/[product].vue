@@ -56,12 +56,12 @@
         </section>
       </section>
       <section>
-        <SectionHeader title="Relaterede" to="/collections/all"></SectionHeader>
+        <SectionHeader title="Relaterede" to="/all"></SectionHeader>
         <ProductSlider :products="baseProducts.edges"></ProductSlider>
       </section>
       <hr />
       <section>
-        <SectionHeader title="Sidst set" to="/collections/all"></SectionHeader>
+        <SectionHeader title="Sidst set" to="/all"></SectionHeader>
         <ProductSlider :products="baseProducts.edges"></ProductSlider>
       </section>
     </div>

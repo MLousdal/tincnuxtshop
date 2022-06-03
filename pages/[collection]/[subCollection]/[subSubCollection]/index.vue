@@ -40,8 +40,7 @@ import { collectionByHandle } from "~/apollo/queries/collectionByHandle";
 import { tags } from "~/constants";
 
 const route = useRoute();
-const topHandle = route.params.collection;
-const handle = route.params.subCollection;
+const handle = route.params.subSubCollection;
 
 const { result, error } = useQuery(collectionByHandle, {
   handle,

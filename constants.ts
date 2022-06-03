@@ -108,32 +108,32 @@ export const navLinks = [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Ansigt",
-            path: "/personlig-pleje/Kosmetik/gavekort",
+            path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Eau de Toilette",
-            path: "/personlig-pleje/Kosmetik/gavekort",
+            path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Læber",
-            path: "/personlig-pleje/Kosmetik/gavekort",
+            path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Makeup børster & tilbehør",
-            path: "/personlig-pleje/Kosmetik/gavekort",
+            path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Neglelak & negletilbehør",
-            path: "/personlig-pleje/Kosmetik/gavekort",
+            path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Øjne",
-            path: "/personlig-pleje/Kosmetik/ojne",
+            path: "/personlig-pleje/kosmetik/ojne",
           },
         ],
       },
@@ -1470,7 +1470,7 @@ export const baseCategories = [
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Kropspleje",
-    path: "/personlig-pleje//gavekort",
+    path: "/personlig-pleje/gavekort",
   },
   {
     img: "/images/ella-olsson.jpg",
@@ -1480,12 +1480,12 @@ export const baseCategories = [
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Naturlig duft",
-    path: "/personlig-pleje//Natulige olier & kosmetriske råvare/Naturlig duft",
+    path: "/personlig-pleje/Natulige olier & kosmetriske råvare/Naturlig duft",
   },
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Shampoo - Balsam flydende",
-    path: "/personlig-pleje//har/Shampoo - Balsam flydende",
+    path: "/personlig-pleje/har/Shampoo - Balsam flydende",
   },
   {
     img: "/images/ella-olsson.jpg",
@@ -1495,7 +1495,7 @@ export const baseCategories = [
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Kosmetik",
-    path: "/personlig-pleje//kosmetik",
+    path: "/personlig-pleje/kosmetik",
   },
 ];
 

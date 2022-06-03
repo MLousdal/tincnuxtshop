@@ -11,7 +11,7 @@
         <h1>Start din rejse mod en grønnere hverdag hos TINC</h1>
         <img src="/images/hero1.jpg" alt="" class="hero-img-1 flip-horizon" />
         <img src="/images/hero2.png" alt="" class="hero-img-2" />
-        <NuxtLink class="btn flex flex-gap-2 hero-btn" to="/collections/all"
+        <NuxtLink class="btn flex flex-gap-2 hero-btn" to="/all"
           ><span class="text-nowrap">Shop bæredygtigt</span>
           <img src="/icons/arrow-small.svg" alt=""
         /></NuxtLink>
@@ -34,19 +34,15 @@
       </div>
     </section>
     <section>
-      <SectionHeader title="Nyheder" to="/collections/all"></SectionHeader>
+      <SectionHeader title="Nyheder" to="/all"></SectionHeader>
       <ProductSlider :products="baseProducts.edges"></ProductSlider>
     </section>
     <section>
-      <SectionHeader
-        title="Kategorier"
-        to="/collections/all"
-        noLink
-      ></SectionHeader>
+      <SectionHeader title="Kategorier" to="/all" noLink></SectionHeader>
       <CategorySlider :categories="baseCategories"></CategorySlider>
     </section>
     <section>
-      <SectionHeader title="Populært" to="/collections/all"></SectionHeader>
+      <SectionHeader title="Populært" to="/all"></SectionHeader>
       <ProductSlider :products="baseProducts.edges"></ProductSlider>
     </section>
     <section>

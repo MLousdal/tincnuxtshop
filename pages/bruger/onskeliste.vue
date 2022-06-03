@@ -32,7 +32,7 @@ const state = reactive({ desktop: true });
     </ProductGrid>
     <hr />
     <section>
-      <SectionHeader title="Sidst set" to="/collections/all"></SectionHeader>
+      <SectionHeader title="Sidst set" to="/all"></SectionHeader>
       <ProductSlider :products="baseProducts.edges"></ProductSlider>
     </section>
   </div>

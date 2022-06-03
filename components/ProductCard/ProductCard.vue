@@ -25,8 +25,6 @@
 </template>
 
 <script setup lang="ts">
-import FavoriteBtn from "../FavoriteBtn.vue";
-import ProductAddToCart from "../ProductAddToCart/ProductAddToCart.vue";
 const props = defineProps<{
   product: ProductCard;
   index?: number;

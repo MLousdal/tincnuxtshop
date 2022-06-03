@@ -2,265 +2,260 @@ export const navLinks = [
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Personlig pleje",
-    path: "/collections/personlig-pleje",
+    path: "/personlig-pleje",
     subMenus: [
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Bad og sæbe",
-        path: "/collections/personlig-plejeBad og sæbe",
+        path: "/personlig-pleje/bad-og-saebe",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Bad tilbehør",
-            path: "/collections/personlig-plejeBad og sæbe/Bad tilbehør",
+            path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Bodyscrub",
-            path: "/collections/personlig-plejeBad og sæbe/Bodyscrub",
+            path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Håndsæbe",
-            path: "/collections/personlig-plejeBad og sæbe/Håndsæbe",
+            path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Sæber og sæbeskåle",
-            path: "/collections/personlig-plejeBad og sæbe/Sæber og sæbeskåle",
+            path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Hygiejne",
-        path: "/collections/personlig-plejeHygiejne/",
+        path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Babering",
-            path: "/collections/personlig-plejeHygiejne/Babering",
+            path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Deodorant",
-            path: "/collections/personlig-plejeHygiejne/Deodorant",
+            path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Intimhygiejne",
-            path: "/collections/personlig-plejeHygiejne/Intimhygiejne",
+            path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Lommetørklæder",
-            path: "/collections/personlig-plejeHygiejne/Lommetørklæder",
+            path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Plaster",
-            path: "/collections/personlig-plejeHygiejne/Plaster",
+            path: "/personlig-pleje/Hygiejne/gavekort",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Hår",
-        path: "/collections/personlig-plejeHår/",
+        path: "/personlig-pleje/har",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Hårbørster, Kamme & Sakse",
-            path: "/collections/personlig-plejeHår/Hårbørster, Kamme & Sakse",
+            path: "/personlig-pleje/har/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Hårfarve",
-            path: "/collections/personlig-plejeHår/Hårfarve",
+            path: "/personlig-pleje/har/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Hårserum, Kur & Massage",
-            path: "/collections/personlig-plejeHår/Hårserum, Kur & Massage",
+            path: "/personlig-pleje/har/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Hårpynt",
-            path: "/collections/personlig-plejeHår/Hårpynt",
+            path: "/personlig-pleje/har/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
-            title: "Shampoo - Balsam bar",
-            path: "/collections/personlig-plejeHår/Shampoo - Balsam bar",
-          },
-          {
-            img: "/images/neauthy-skincare.jpg",
-            title: "Shampoo - Balsam flydende",
-            path: "/collections/personlig-plejeHår/Shampoo - Balsam flydende",
+            title: "Shampoo - Balsam",
+            path: "/personlig-pleje/har/shampoo-balsam",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Styling & Tørshampoo",
-            path: "/collections/personlig-plejeHår/Styling & Tørshampoo",
+            path: "/personlig-pleje/har/gavekort",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Kosmetik",
-        path: "/collections/personlig-plejeKosmetik/",
+        path: "/personlig-pleje/kosmetik",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Ansigt",
-            path: "/collections/personlig-plejeKosmetik/Ansigt",
+            path: "/personlig-pleje/Kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Eau de Toilette",
-            path: "/collections/personlig-plejeKosmetik/Eau de Toilette",
+            path: "/personlig-pleje/Kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Læber",
-            path: "/collections/personlig-plejeKosmetik/Læber",
+            path: "/personlig-pleje/Kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Makeup børster & tilbehør",
-            path: "/collections/personlig-plejeKosmetik/Makeup børster & tilbehør",
+            path: "/personlig-pleje/Kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Neglelak & negletilbehør",
-            path: "/collections/personlig-plejeKosmetik/Neglelak & negletilbehør",
+            path: "/personlig-pleje/Kosmetik/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Øjne",
-            path: "/collections/personlig-plejeKosmetik/Øjne",
+            path: "/personlig-pleje/Kosmetik/ojne",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Kropspleje",
-        path: "/collections/personlig-plejeKropspleje/",
+        path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Ansigtscreme",
-            path: "/collections/personlig-plejeKropspleje/Ansigtscreme",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Bodylotion",
-            path: "/collections/personlig-plejeKropspleje/Bodylotion",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Fodpleje",
-            path: "/collections/personlig-plejeKropspleje/Fodpleje",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Håndpleje",
-            path: "/collections/personlig-plejeKropspleje/Håndpleje",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Læbepomade",
-            path: "/collections/personlig-plejeKropspleje/Læbepomade",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Massage",
-            path: "/collections/personlig-plejeKropspleje/Massage",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Rens & tilbehør",
-            path: "/collections/personlig-plejeKropspleje/Rens & tilbehør",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Solcreme & aftersun",
-            path: "/collections/personlig-plejeKropspleje/Solcreme & aftersun",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Mor og barn",
-        path: "/collections/personlig-plejeMor og barn/",
+        path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Baby",
-            path: "/collections/personlig-plejeMor og barn/Baby",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Tandpleje",
-        path: "/collections/personlig-plejeTandpleje/",
+        path: "/personlig-pleje/tandpleje",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Tandpleje",
-            path: "/collections/personlig-plejeTandpleje/Tandpleje",
+            path: "/personlig-pleje/tandpleje/tandpleje",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Natulige olier & kosmetriske råvare",
-        path: "/collections/personlig-plejeNatulige olier & kosmetriske råvare/",
+        path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Naturlig duft",
-            path: "/collections/personlig-plejeNatulige olier & kosmetriske råvare/Naturlig duft",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Naturlig olie",
-            path: "/collections/personlig-plejeNatulige olier & kosmetriske råvare/Naturlig olie",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Kosmetiske råvarer",
-            path: "/collections/personlig-plejeNatulige olier & kosmetriske råvare/Kosmetiske råvarer",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Rondeller og vatpinde",
-        path: "/collections/personlig-plejeRondeller og vatpinde/",
+        path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Vatpinde og ørerensere",
-            path: "/collections/personlig-plejeRondeller og vatpinde/Vatpinde og ørerensere",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
       {
         img: "/images/neauthy-skincare.jpg",
         title: "Tilbehør",
-        path: "/collections/personlig-plejeTilbehør/",
+        path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Toilettasker",
-            path: "/collections/personlig-plejeTilbehør/Toilettasker",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
           {
             img: "/images/neauthy-skincare.jpg",
             title: "Varmepude",
-            path: "/collections/personlig-plejeTilbehør/Varmepude",
+            path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
@@ -269,115 +264,115 @@ export const navLinks = [
   {
     img: "/images/ella-olsson.jpg",
     title: "Husholdning",
-    path: "/collections/husholdning",
+    path: "/husholdning",
     subMenus: [
       {
         img: "/images/ella-olsson.jpg",
         title: "Boligtilbehør",
-        path: "/collections/husholdning/Boligtilbehør/",
+        path: "/husholdning/boligtilbehor",
         subSubMenus: [
           {
             img: "/images/ella-olsson.jpg",
             title: "Duft, røgelse & lys",
-            path: "/collections/husholdning/Boligtilbehør/Duft, røgelse & lys",
+            path: "/husholdning/boligtilbehor/gavekort",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Glasflasker & beholder",
-            path: "/collections/husholdning/Boligtilbehør/Glasflasker & beholder",
+            path: "/husholdning/boligtilbehor/glasflasker-og-beholdere",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Indpakning, poser & pynt",
-            path: "/collections/husholdning/Boligtilbehør/Indpakning, poser & pynt",
+            path: "/husholdning/boligtilbehor/gavekort",
           },
         ],
       },
       {
         img: "/images/ella-olsson.jpg",
         title: "Køkkenartikler",
-        path: "/collections/husholdning/Køkkenartikler/",
+        path: "/husholdning/gavekort",
         subSubMenus: [
           {
             img: "/images/ella-olsson.jpg",
             title: "Køkkentilbehør",
-            path: "/collections/husholdning/Køkkenartikler/Køkkentilbehør",
+            path: "/husholdning/gavekort/gavekort",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Sugerør",
-            path: "/collections/husholdning/Køkkenartikler/Sugerør",
+            path: "/husholdning/gavekort/gavekort",
           },
         ],
       },
       {
         img: "/images/ella-olsson.jpg",
         title: "Madopbevaring",
-        path: "/collections/husholdning/Madopbevaring/",
+        path: "/husholdning/gavekort",
         subSubMenus: [
           {
             img: "/images/ella-olsson.jpg",
             title: "Drikkeflasker",
-            path: "/collections/husholdning/Madopbevaring/Drikkeflasker",
+            path: "/husholdning/gavekort/gavekort",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Madkasser",
-            path: "/collections/husholdning/Madopbevaring/Madkasser",
+            path: "/husholdning/gavekort/gavekort",
           },
         ],
       },
       {
         img: "/images/ella-olsson.jpg",
         title: "Rengøring(sartikler)",
-        path: "/collections/husholdning/Rengøring(sartikler)/",
+        path: "/husholdning/rengoring",
         subSubMenus: [
           {
             img: "/images/ella-olsson.jpg",
             title: "Børste & svampe",
-            path: "/collections/husholdning/Rengøring(sartikler)/Børste & svampe",
+            path: "/husholdning/rengoring/gavekort",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Koste & fejebakker",
-            path: "/collections/husholdning/Rengøring(sartikler)/Koste & fejebakker",
+            path: "/husholdning/rengoring/gavekort",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Opvask",
-            path: "/collections/husholdning/Rengøring(sartikler)/Opvask",
+            path: "/husholdning/rengoring/gavekort",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Rengøringsmidler",
-            path: "/collections/husholdning/Rengøring(sartikler)/Rengøringsmidler",
+            path: "/husholdning/rengoring/gavekort",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Tøjvask",
-            path: "/collections/husholdning/Rengøring(sartikler)/Tøjvask",
+            path: "/husholdning/rengoring/tojvask",
           },
         ],
       },
       {
         img: "/images/ella-olsson.jpg",
         title: "Tekstiler",
-        path: "/collections/husholdning/Tekstiler/",
+        path: "/husholdning/tekstiler",
         subSubMenus: [
           {
             img: "/images/ella-olsson.jpg",
             title: "Håndklæder",
-            path: "/collections/husholdning/Tekstiler/Håndklæder",
+            path: "/husholdning/tekstiler/gavekort",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Klude",
-            path: "/collections/husholdning/Tekstiler/Klude",
+            path: "/husholdning/tekstiler/klude",
           },
           {
             img: "/images/ella-olsson.jpg",
             title: "Viskestykker",
-            path: "/collections/husholdning/Tekstiler/Viskestykker",
+            path: "/husholdning/tekstiler/gavekort",
           },
         ],
       },
@@ -385,55 +380,55 @@ export const navLinks = [
   },
   {
     title: "Fødevare",
-    path: "/collections/fodevare",
+    path: "/fodevare",
     img: "/images/anh-nguyen.jpg",
     subMenus: [
       {
         img: "/images/anh-nguyen.jpg",
         title: "Mad - kolonial",
-        path: "/collections/fodevare/Mad - kolonial/",
+        path: "/fodevare/mad-kolonial",
         subSubMenus: [
           {
             img: "/images/anh-nguyen.jpg",
             title: "Kolonial",
-            path: "/collections/fodevare/Mad - kolonial/Kolonial",
+            path: "/fodevare/mad-kolonial/mad-kolonial-1",
           },
           {
             img: "/images/anh-nguyen.jpg",
             title: "Konfekture",
-            path: "/collections/fodevare/Mad - kolonial/Konfekture",
+            path: "/fodevare/mad-kolonial/gavekort",
           },
           {
             img: "/images/anh-nguyen.jpg",
             title: "Krydderier, Urter, Blomster & Pulver",
-            path: "/collections/fodevare/Mad - kolonial/Krydderier, Urter, Blomster & Pulver",
+            path: "/fodevare/mad-kolonial/gavekort",
           },
           {
             img: "/images/anh-nguyen.jpg",
             title: "Slik",
-            path: "/collections/fodevare/Mad - kolonial/Slik",
+            path: "/fodevare/mad-kolonial/gavekort",
           },
           {
             img: "/images/anh-nguyen.jpg",
             title: "Tyggeegummi",
-            path: "/collections/fodevare/Mad - kolonial/Tyggeegummi",
+            path: "/fodevare/mad-kolonial/gavekort",
           },
         ],
       },
       {
         img: "/images/anh-nguyen.jpg",
         title: "Drikkevare",
-        path: "/collections/fodevare/Drikkevare/",
+        path: "/fodevare/drikkevare",
         subSubMenus: [
           {
             img: "/images/anh-nguyen.jpg",
-            title: "Drikkevarer",
-            path: "/collections/fodevare/Drikkevare/Drikkevarer",
+            title: "drikkevarer",
+            path: "/fodevare/drikkevare/gavekort",
           },
           {
             img: "/images/anh-nguyen.jpg",
             title: "Kaffe & te",
-            path: "/collections/fodevare/Drikkevare/Kaffe & te",
+            path: "/fodevare/drikkevare/kaffe-te-og-kakao",
           },
         ],
       },
@@ -1470,37 +1465,37 @@ export const baseCategories = [
   {
     img: "/images/anh-nguyen.jpg",
     title: "Fødevare",
-    path: "/collections/fodevare",
+    path: "/fodevare",
   },
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Kropspleje",
-    path: "/personlig-pleje/Kropspleje/",
+    path: "/personlig-pleje//gavekort",
   },
   {
     img: "/images/ella-olsson.jpg",
     title: "Madopbevaring og servering",
-    path: "/husholdning/Madopbevaring/",
+    path: "/husholdning/Madopbevaring",
   },
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Naturlig duft",
-    path: "/personlig-pleje/Natulige olier & kosmetriske råvare/Naturlig duft",
+    path: "/personlig-pleje//Natulige olier & kosmetriske råvare/Naturlig duft",
   },
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Shampoo - Balsam flydende",
-    path: "/personlig-pleje/Hår/Shampoo - Balsam flydende",
+    path: "/personlig-pleje//har/Shampoo - Balsam flydende",
   },
   {
     img: "/images/ella-olsson.jpg",
     title: "Opvask",
-    path: "/Husholdning/Rengøring(sartikler)/Opvask",
+    path: "/Husholdning/rengoringOpvask",
   },
   {
     img: "/images/neauthy-skincare.jpg",
     title: "Kosmetik",
-    path: "/personlig-pleje/kosmetik/",
+    path: "/personlig-pleje//kosmetik",
   },
 ];
 
@@ -1509,21 +1504,21 @@ export const blogPosts = [
     author: "Amalie A.",
     date: "02/04/22",
     img: "/images/diana-light.jpg",
-    link: "/",
+    link: "",
     title: "5 lette ændringer som gør dit badeværelse mere bæredygtigt",
   },
   {
     author: "Amalie A.",
     date: "02/04/22",
     img: "/images/ella-olsson.jpg",
-    link: "/",
+    link: "",
     title: "5 lette ændringer som gør dit badeværelse mere bæredygtigt",
   },
   {
     author: "Amalie A.",
     date: "02/04/22",
     img: "/images/anh-nguyen.jpg",
-    link: "/",
+    link: "",
     title: "5 lette ændringer som gør dit badeværelse mere bæredygtigt",
   },
 ];

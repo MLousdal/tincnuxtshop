@@ -30,7 +30,7 @@
       </section>
       <section v-else></section>
     </section>
-    <section v-else>Oh no...</section>
+    <section v-else>Loading</section>
     <section v-if="error">Error</section>
   </section>
 </template>

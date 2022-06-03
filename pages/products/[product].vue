@@ -65,7 +65,7 @@
         <ProductSlider :products="baseProducts.edges"></ProductSlider>
       </section>
     </div>
-    <div v-else></div>
+    <div v-else>Loading</div>
     <div v-if="error">Error</div>
   </section>
 </template>

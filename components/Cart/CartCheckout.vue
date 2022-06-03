@@ -2,8 +2,8 @@
   <a
     v-if="checkoutUrl"
     :href="checkoutUrl"
-    class="block py-4 font-bold text-center text-white bg-black"
-    >Checkout</a
+    class="btn text-light fit flex-align-self-end checkout"
+    >Gå til kassen</a
   >
 </template>
 

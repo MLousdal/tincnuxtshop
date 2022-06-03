@@ -58,6 +58,10 @@
   display: none !important;
 }
 
+.fit {
+  width: fit-content;
+}
+
 .capitalize {
   text-transform: uppercase;
 }
@@ -93,6 +97,9 @@
   }
   &-align-end {
     align-items: flex-end;
+  }
+  &-align-self-end {
+    align-self: flex-end;
   }
   &-align-center {
     align-items: center;
@@ -173,7 +180,7 @@
     color: var(--gray-6);
   }
   &light {
-    color: var(--gray-3);
+    color: var(--gray-0) !important;
   }
   &success {
     color: var(--green-5);

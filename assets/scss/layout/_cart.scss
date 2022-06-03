@@ -31,19 +31,13 @@
   }
   &-cost {
     color: var(--gray-7);
-    display: grid;
-    gap: var(--size-3);
-    grid-template-columns: auto max-content;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-5);
 
     span {
       text-align: end;
     }
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: var(--size-8);
   }
 
   label {
@@ -62,26 +56,20 @@
   }
 }
 
-.end-overlay {
-  display: flex;
-  flex-direction: column;
-  gap: var(--size-8);
-
+.checkout {
   @media (max-width: 1000px) {
-    background-color: var(--surface-1);
+    background-color: var(--contrast);
     border-radius: var(--radius-3) var(--radius-3) 0 0;
     bottom: 0;
     box-shadow: var(--shadow-4);
-    gap: var(--size-2);
-    left: 0;
+    color: var(--text-1) !important;
+    left: 0.5vw;
     padding: var(--size-3);
     position: fixed;
+    text-align: center;
+    font-size: var(--font-size-4);
+    right: 0;
     width: 100vw;
-  }
-
-  input[type="submit"] {
-    align-self: flex-end;
-    padding: var(--size-2) var(--size-5);
-    width: fit-content;
+    z-index: 9;
   }
 }

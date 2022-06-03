@@ -1,7 +1,7 @@
 export const navLinks = [
   {
     img: "/images/neauthy-skincare.jpg",
-    title: "personlig-pleje",
+    title: "Personlig pleje",
     path: "/collections/personlig-pleje",
     subMenus: [
       {

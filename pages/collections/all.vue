@@ -8,7 +8,10 @@
         </Head>
       </Html>
       <Breadcrumbs />
-      <CategorySlider :categories="categories"></CategorySlider>
+      <CategorySlider
+        :categories="categories"
+        v-if="categories"
+      ></CategorySlider>
       <section v-if="collection?.products?.edges">
         <div class="flex flex-between flex-align-center">
           <p class="text-gray">
@@ -30,7 +33,7 @@
       </section>
       <section v-else></section>
     </section>
-    <section v-else>Oh no...</section>
+    <section v-else>Loading</section>
     <section v-if="error">Error</section>
   </section>
 </template>
@@ -41,7 +44,7 @@ import { collectionByHandle } from "~/apollo/queries/collectionByHandle";
 import { navLinks, tags } from "~/constants";
 
 const route = useRoute();
-const handle = route.params.collection;
+const handle = "all";
 
 const { result, error } = useQuery(collectionByHandle, {
   handle,
@@ -49,9 +52,5 @@ const { result, error } = useQuery(collectionByHandle, {
 });
 const collection = useResult(result, null, (data) => data.collectionByHandle);
 
-const categoryLinks = navLinks.find(
-  (link) => link.path.split("/")[link.path.split("/").length - 1] == handle
-);
-
-const categories = categoryLinks.subMenus;
+const categories = navLinks;
 </script>

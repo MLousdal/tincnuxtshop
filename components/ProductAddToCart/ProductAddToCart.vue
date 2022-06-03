@@ -3,7 +3,6 @@
     @click="addToCart"
     @keyup.enter="addToCart"
     :disabled="!selectedVariantId"
-    class="w-full p-4 text-center text-white bg-black disabled:opacity-75"
   >
     <span>{{ currentLabel }}</span>
   </button>
@@ -16,8 +15,8 @@ import { useCartStore } from "~/stores/cart";
 const productStore = useProductStore();
 const cartStore = useCartStore();
 
-const labelActive = "Add to Cart";
-const labelDisabled = "Select Variant";
+const labelActive = "Tilføj til kurv";
+const labelDisabled = "Vælg en variant";
 const selectedVariantId = computed(() => productStore.selectedVariantId);
 const currentLabel = computed(() =>
   selectedVariantId ? labelActive : labelDisabled

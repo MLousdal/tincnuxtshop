@@ -15,7 +15,7 @@ function changeImage(img) {
 <template>
   <div class="product-page-image-viewer">
     <img
-      :src="state.currentImg || images[0].url"
+      :src="state.currentImg || images[0].node.url"
       alt=""
       class="product-page-image-image"
     />

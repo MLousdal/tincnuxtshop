@@ -1,9 +1,6 @@
 <template :key="handle">
-  <section class="product-page-wrapper">
-    <div
-      v-if="product"
-      class="grid grid-cols-1 mx-auto my-4 md:grid-cols-[auto_minmax(300px,_1fr)] md:gap-8 md:my-8"
-    >
+  <section>
+    <div v-if="product" class="product-page-wrapper">
       <Html>
         <Head v-if="product?.title && product?.description">
           <Title>{{ product.title }}</Title>
@@ -17,12 +14,15 @@
           <header class="product-page-header">
             <h1>{{ product.title }}</h1>
             <div class="flex flex-between flex-align-center">
-              <p class="text-5 bold text-serif">
-                {{ product.priceRange.minVariantPrice.amount }} kr.
-              </p>
+              <ProductPrice
+                :priceRange="product.priceRange"
+                :compareAtPriceRange="product.compareAtPriceRange"
+                class="text-5 bold text-serif"
+              />
               <div class="product-functions">
+                <ProductVariants label="Select option" :variants="variants" />
                 <FavoriteBtn></FavoriteBtn>
-                <button>Tilføj til kurv</button>
+                <ProductAddToCart />
               </div>
             </div>
           </header>
@@ -32,7 +32,7 @@
             </header>
             <div
               v-html="product.descriptionHtml"
-              class="flex flex-column flex-gap-2"
+              class="flex flex-column flex-gap-1"
             ></div>
             <ul class="product-page-list">
               <li>Zero waste</li>
@@ -55,29 +55,15 @@
           </main>
         </section>
       </section>
-      <!-- <ProductImage
-        :alt="product.handle"
-        :src="product.images?.edges[0]?.node?.url ?? ''"
-        :width="product.images?.edges[0]?.node?.width ?? ''"
-        :height="product.images?.edges[0]?.node?.height ?? ''"
-        class=""
-      />
-      <div class="p-4 mt-4 border-2 border-black md:mt-0">
-        <ProductTitle
-          tag="h1"
-          :title="product.title"
-          variant="product"
-          class="text-xl"
-        />
-        <ProductPrice
-          :priceRange="product.priceRange"
-          :compareAtPriceRange="product.compareAtPriceRange"
-          class="mb-4 md:mb-8"
-        />
-        <ProductVariants label="Select option" :variants="variants" />
-        <ProductAddToCart />
-        <ProductDescription :description="product.descriptionHtml" /> 
-      </div> -->
+      <section>
+        <SectionHeader title="Relaterede" to="/collections/all"></SectionHeader>
+        <ProductSlider :products="baseProducts.edges"></ProductSlider>
+      </section>
+      <hr />
+      <section>
+        <SectionHeader title="Sidst set" to="/collections/all"></SectionHeader>
+        <ProductSlider :products="baseProducts.edges"></ProductSlider>
+      </section>
     </div>
     <div v-else></div>
     <div v-if="error">Error</div>
@@ -86,10 +72,9 @@
 
 <script setup lang="ts">
 import { useQuery, useResult } from "@vue/apollo-composable";
-import { getSrcset } from "~/utils/images";
 import { productByHandle } from "~/apollo/queries/productByHandle";
 import { productVariantsByHandle } from "~/apollo/queries/productVariantsByHandle";
-import Breadcrumbs from "~~/components/Breadcrumbs.vue";
+import { baseProducts } from "~/constants";
 
 const route = useRoute();
 const handle = route.params.product;
@@ -101,14 +86,9 @@ const product: any = useResult(result, null, (data) => data.productByHandle);
 const initialVariants = useResult(
   result,
   [],
-  (data) => data.productByHandle.variants.edges
+  (data) => data.productByHandle.variants.edges.default
 );
 variants.value = initialVariants;
-
-// Product Image
-const src = computed(() => product.value.images?.edges[0]?.node?.url ?? "");
-const sizes = `(max-width: 300px) 95vw, 40vw`;
-const srcset = computed(() => getSrcset(src.value || ""));
 
 // Fetch fresh inventory on client
 onMounted(() => {

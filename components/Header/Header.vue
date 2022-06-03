@@ -1,6 +1,6 @@
 <template>
   <header class="navbar">
-    <Hamburger class="hide" />
+    <Hamburger />
     <Logo />
     <Navigation />
     <!-- <CartIcon /> -->

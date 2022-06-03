@@ -7,6 +7,8 @@
         :src="src"
       />
     </NuxtLink>
+    <FavoriteBtn />
+    <ProductAddToCart :product="product" small />
     <NuxtLink :to="productPath" class="product-text" tabindex="-1">
       <ProductTitle
         tag="p"
@@ -23,6 +25,8 @@
 </template>
 
 <script setup lang="ts">
+import FavoriteBtn from "../FavoriteBtn.vue";
+import ProductAddToCart from "../ProductAddToCart/ProductAddToCart.vue";
 const props = defineProps<{
   product: ProductCard;
   index?: number;

@@ -1,8 +1,18 @@
 <template>
+  <input
+    type="image"
+    src="/icons/addCart.svg"
+    class="addToCartBtn"
+    @click="addToCart"
+    @keyup.enter="addToCart"
+    :disabled="!selectedVariantId"
+    v-if="small"
+  />
   <button
     @click="addToCart"
     @keyup.enter="addToCart"
     :disabled="!selectedVariantId"
+    v-else
   >
     <span>{{ currentLabel }}</span>
   </button>
@@ -21,6 +31,11 @@ const selectedVariantId = computed(() => productStore.selectedVariantId);
 const currentLabel = computed(() =>
   selectedVariantId ? labelActive : labelDisabled
 );
+
+const props = defineProps({
+  product: { type: Object, required: false },
+  small: { type: Boolean, required: false, default: false },
+});
 
 const addToCart = () => {
   if (!selectedVariantId.value) {

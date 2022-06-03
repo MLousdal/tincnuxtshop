@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-  <NuxtLink :to="`${link}`" class="blog-post">
+  <NuxtLink :to="link" class="blog-post">
     <div class="blog-post-img"><img :src="img" :alt="title" /></div>
     <p class="bold">{{ title }}</p>
     <div class="flex flex-between">

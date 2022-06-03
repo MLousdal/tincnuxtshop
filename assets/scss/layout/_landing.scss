@@ -1,3 +1,10 @@
+.landing,
+.oversigt {
+  gap: var(--size-10);
+  display: flex;
+  flex-direction: column;
+}
+
 .hero-blob {
   background-image: url("/icons/heroBlob.svg");
   background-repeat: no-repeat;

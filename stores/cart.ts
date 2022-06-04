@@ -144,7 +144,6 @@ export const useCartStore = defineStore("cart", {
           throw "cartLinesRemove: error";
         }
         this.cart = data.cartLinesRemove.cart;
-        this.cartOpen = true;
       } catch (e) {
         return e;
       } finally {

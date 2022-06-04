@@ -2,6 +2,13 @@
 
 <template>
   <div class="profile">
+    <Html>
+      <Head>
+        <Title>
+          Profil | TINC Økologisk Butik med Bæredygtige & Miljøvenlige Produkter
+        </Title>
+      </Head>
+    </Html>
     <header>
       <h1 class="text-brand">Profil</h1>
     </header>

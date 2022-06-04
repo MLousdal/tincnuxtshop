@@ -4,7 +4,6 @@
       <Html>
         <Head>
           <Title>{{ collection?.title ?? "" }}</Title>
-          <Meta name="description" :content="collection?.description ?? ''" />
         </Head>
       </Html>
       <Breadcrumbs />

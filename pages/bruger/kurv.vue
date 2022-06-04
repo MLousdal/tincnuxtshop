@@ -9,6 +9,13 @@ const giftAmount = ref(0);
 
 <template>
   <div class="cart">
+    <Html>
+      <Head>
+        <Title>
+          Kurv | TINC Økologisk Butik med Bæredygtige & Miljøvenlige Produkter
+        </Title>
+      </Head>
+    </Html>
     <header>
       <h1 class="text-brand">Indkøbskurv</h1>
     </header>

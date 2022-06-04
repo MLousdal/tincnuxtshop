@@ -2,8 +2,10 @@
   <div class="landing">
     <Html>
       <Head>
-        <Title>NuxtShop</Title>
-        <Meta name="description" :content="description" />
+        <Title
+          >Forside | TINC Økologisk Butik med Bæredygtige & Miljøvenlige
+          Produkter</Title
+        >
       </Head>
     </Html>
     <section class="hero">

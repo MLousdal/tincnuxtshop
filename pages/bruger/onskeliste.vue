@@ -8,6 +8,14 @@ const state = reactive({ desktop: true });
 
 <template>
   <div class="onskeliste">
+    <Html>
+      <Head>
+        <Title>
+          Ønskeliste | TINC Økologisk Butik med Bæredygtige & Miljøvenlige
+          Produkter
+        </Title>
+      </Head>
+    </Html>
     <header>
       <h1 class="text-brand">Ønskeliste</h1>
     </header>

@@ -3,8 +3,10 @@
     <section v-if="collection" class="oversigt">
       <Html>
         <Head>
-          <Title>{{ collection?.title ?? "" }}</Title>
-          <Meta name="description" :content="collection?.description ?? ''" />
+          <Title>{{
+            `${collection?.title} | TINC Økologisk Butik med Bæredygtige & Miljøvenlige
+          Produkter` ?? ""
+          }}</Title>
         </Head>
       </Html>
       <Breadcrumbs />

@@ -3,8 +3,10 @@
     <div v-if="product" class="product-page-wrapper">
       <Html>
         <Head v-if="product?.title && product?.description">
-          <Title>{{ product.title }}</Title>
-          <Meta name="description" :content="product.description" />
+          <Title>{{
+            `${product?.title} | TINC Økologisk Butik med Bæredygtige & Miljøvenlige
+          Produkter` ?? ""
+          }}</Title>
         </Head>
       </Html>
       <Breadcrumbs />

@@ -56,4 +56,16 @@ const categoryLinks = navLinks.find(
 );
 
 const categories = categoryLinks.subMenus;
+
+// For at hente alle de anvendte tags i kollektionen ville jeg have anvendt denne funktion,
+// som laver et array af produkterne, og looper over dem, og kigger på deres tags.
+// Hvorefter den igen looper over disse tags og tjekker om tagget findes på tagArray og tilføjer dem hvis de ikke er
+
+// let tagArray = []
+// const edgesArray = Array.from(collection?.value.products.edges);
+// edgesArray.forEach(edge => {
+//   edge.node.tags.forEach(tag) => {
+//     tagArray.indexOf(tag) === -1 ? tagArray.push(tag) : console.log(tag, "already added");
+//   }
+// });
 </script>

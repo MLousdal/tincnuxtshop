@@ -5,32 +5,17 @@
     class="addToCartBtn"
     @click="addToCart"
     @keyup.enter="addToCart"
-    :disabled="!selectedVariantId"
     v-if="small"
   />
-  <button
-    @click="addToCart"
-    @keyup.enter="addToCart"
-    :disabled="!selectedVariantId"
-    v-else
-  >
-    <span>{{ currentLabel }}</span>
+  <button @click="addToCart" @keyup.enter="addToCart" v-else>
+    <span>Tilføj til kurv</span>
   </button>
 </template>
 
 <script setup lang="ts">
-import { useProductStore } from "~/stores/product";
 import { useCartStore } from "~/stores/cart";
 
-const productStore = useProductStore();
 const cartStore = useCartStore();
-
-const labelActive = "Tilføj til kurv";
-const labelDisabled = "Vælg en variant";
-const selectedVariantId = computed(() => productStore.selectedVariantId);
-const currentLabel = computed(() =>
-  selectedVariantId ? labelActive : labelDisabled
-);
 
 const props = defineProps({
   product: { type: Object, required: false },
@@ -38,11 +23,6 @@ const props = defineProps({
 });
 
 const addToCart = () => {
-  if (!selectedVariantId.value) {
-    // TO-DO: Handle unselected variant
-    return;
-  }
-  cartStore.cartLinesAdd(selectedVariantId.value);
-  productStore.setSelectedVariantId("");
+  cartStore.cartLinesAdd(props.product.variants.edges[0].node.id);
 };
 </script>

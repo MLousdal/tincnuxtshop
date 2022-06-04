@@ -22,9 +22,8 @@
                 class="text-5 bold text-serif"
               />
               <div class="product-functions">
-                <ProductVariants label="Select option" :variants="variants" />
                 <FavoriteBtn></FavoriteBtn>
-                <ProductAddToCart />
+                <ProductAddToCart :product="product" />
               </div>
             </div>
           </header>

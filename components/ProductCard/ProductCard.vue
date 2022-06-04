@@ -6,9 +6,22 @@
         :lazy="index > lazyLoadingThreshold"
         :src="src"
       />
+      <div v-if="product.tags.includes('Nyhed')" class="product-tag Nyhed">
+        Nyhed
+      </div>
+      <div v-if="product.tags.includes('Nedsat')" class="product-tag Nedsat">
+        Nedsat
+      </div>
+      <div v-if="!product.availableForSale" class="product-tag Udsolgt">
+        Udsolgt
+      </div>
     </NuxtLink>
     <FavoriteBtn />
-    <ProductAddToCart :product="product" small />
+    <ProductAddToCart
+      :product="product"
+      small
+      :disabled="!product.availableForSale"
+    />
     <NuxtLink :to="productPath" class="product-text" tabindex="-1">
       <ProductTitle
         tag="p"

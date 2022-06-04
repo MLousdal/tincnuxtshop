@@ -66,24 +66,24 @@
   a:hover ~ .sub-menu-content {
     display: flex;
   }
-}
 
-.sub-menu-content {
-  background-color: var(--secondary);
-  box-shadow: var(--shadow-2);
-  display: none;
-  font-family: var(--font-sans);
-  justify-content: flex-start;
-  left: 0%;
-  padding-left: var(--size-7);
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  z-index: 4;
+  &-content {
+    background-color: var(--secondary);
+    box-shadow: var(--shadow-2);
+    display: none;
+    font-family: var(--font-sans);
+    justify-content: flex-start;
+    left: 0%;
+    padding-left: var(--size-7);
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 4;
 
-  &:hover,
-  &:focus {
-    display: flex;
+    &:hover,
+    &:focus {
+      display: flex;
+    }
   }
 }
 
@@ -105,48 +105,48 @@
     font-weight: 700;
     text-decoration: none;
   }
-}
 
-.sub-sub-menu-content {
-  background-color: var(--surface-1);
-  box-shadow: var(--shadow-2);
-  display: none;
-  flex-direction: column;
-  font-family: var(--font-sans);
-  gap: var(--size-3);
-  gap: var(--size-5);
-  grid-template-columns: 20% 50% 20%;
-  justify-content: center;
-  justify-items: stretch;
-  left: 0%;
-  max-height: 0;
-  overflow: hidden;
-  padding-block: var(--size-3);
-  padding-left: var(--size-7);
-  position: absolute;
-  top: 100%;
-  transition: max-height 0.25s ease-in;
-  width: 100%;
-  z-index: 4;
-
-  &:hover,
-  &:focus {
-    display: flex;
-  }
-
-  &-filter,
-  &-categories {
-    display: flex;
+  &-content {
+    background-color: var(--surface-1);
+    box-shadow: var(--shadow-2);
+    display: none;
     flex-direction: column;
+    font-family: var(--font-sans);
+    gap: var(--size-3);
     gap: var(--size-5);
-  }
+    grid-template-columns: 20% 50% 20%;
+    justify-content: center;
+    justify-items: stretch;
+    left: 0%;
+    max-height: 0;
+    overflow: hidden;
+    padding-block: var(--size-3);
+    padding-left: var(--size-7);
+    position: absolute;
+    top: 100%;
+    transition: max-height 0.25s ease-in;
+    width: 100%;
+    z-index: 4;
 
-  &-filter {
-    border-right: var(--border-size-1) solid var(--gray-5);
-  }
+    &:hover,
+    &:focus {
+      display: flex;
+    }
 
-  .blog-post {
-    white-space: normal !important;
+    &-filter,
+    &-categories {
+      display: flex;
+      flex-direction: column;
+      gap: var(--size-5);
+    }
+
+    &-filter {
+      border-right: var(--border-size-1) solid var(--gray-5);
+    }
+
+    .blog-post {
+      white-space: normal !important;
+    }
   }
 }
 
@@ -179,17 +179,34 @@
     border-bottom: var(--gray-5) var(--border-size-1) solid;
     display: grid;
     font-weight: var(--font-weight-7);
-    gap: var(--size-5);
     grid-template-columns: auto 10%;
-    padding: var(--size-fluid-2) var(--size-fluid-3);
+    min-height: 4rem;
 
     a {
+      padding: var(--size-fluid-2) var(--size-fluid-3);
       align-items: center;
       display: grid;
       gap: var(--size-fluid-4);
       grid-template-columns: 10% 90%;
       white-space: nowrap;
+      box-sizing: border-box;
       width: 100%;
+    }
+  }
+
+  &-icon {
+    all: unset;
+    cursor: pointer;
+    grid-column: 2;
+    box-sizing: border-box;
+    padding: var(--size-4);
+    border-left: var(--border-size-1) solid var(--gray-5);
+    place-content: center;
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: 600px) {
+      padding: var(--size-2);
     }
   }
 
@@ -206,7 +223,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: var(--size-fluid-2) var(--size-fluid-3);
+    padding: var(--size-2) var(--size-3);
   }
 
   &-back {
@@ -215,6 +232,7 @@
     cursor: pointer;
     display: flex;
     gap: var(--size-3);
+    width: fit-content;
 
     &:hover,
     &:focus {
@@ -224,14 +242,12 @@
       display: flex;
       gap: var(--size-3);
     }
-  }
 
-  &-icon {
-    all: unset;
-    cursor: pointer;
-    grid-column: 2;
-    justify-self: flex-end;
-    padding-block: var(--size-fluid-2);
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 2rem;
+    }
   }
 
   .navBtn {
@@ -243,13 +259,5 @@
   .searchfield {
     margin: var(--size-fluid-2) var(--size-fluid-3);
     position: relative;
-
-    // TODO: add icon to searchfield
-    // &::before {
-    //   content: url("/icons/search.svg");
-    //   position: absolute;
-    //   top: 0;
-    //   right: 0;
-    // }
   }
 }

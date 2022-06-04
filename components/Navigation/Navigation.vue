@@ -1,6 +1,6 @@
 <template>
-  <nav class="nav-links" ref="menu">
-    <div class="sub-menu" v-for="link in navLinks" v-show="state.isDesktop">
+  <nav class="nav-links" ref="menu" v-show="state.isDesktop">
+    <div class="sub-menu" v-for="link in navLinks">
       <NuxtLink :to="link.path" class="underline">{{ link.title }}</NuxtLink>
       <div class="sub-menu-content">
         <div class="sub-sub-menu" v-for="subMenu in link.subMenus">
@@ -46,7 +46,7 @@
         @click="state.currentLinks = standardLinks"
         class="mobile-nav-links-back"
       >
-        <img src="/icons/arrow.svg" class="flip" alt="" />Tilbage
+        <img src="/icons/arrow.svg" class="flip" alt="" /><span>Tilbage</span>
       </button>
     </div>
     <input type="text" placeholder="Søgefelt" class="searchfield" />

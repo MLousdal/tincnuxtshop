@@ -124,4 +124,12 @@ import {
 
 const shopStore = useShopStore();
 const { description } = storeToRefs(shopStore);
+
+onMounted(() => {
+  document.body.classList.add("hero-blob");
+});
+
+onBeforeUnmount(() => {
+  document.body.classList.remove("hero-blob");
+});
 </script>

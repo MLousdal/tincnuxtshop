@@ -47,7 +47,7 @@ export const navLinks = [
             path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
-            img: "/images/intimhygiejne.jpg",
+            img: "/images/Intimhygiejne.jpg",
             title: "Intimhygiejne",
             path: "/personlig-pleje/Hygiejne/gavekort",
           },

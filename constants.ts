@@ -440,236 +440,220 @@ export const wishProducts = {
   __typename: "ProductConnection",
   edges: [
     {
-      __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTgxMzEzMjU5LCJsYXN0X3ZhbHVlIjoiMCJ9",
-      node: {
-        __typename: "Product",
-        availableForSale: false,
-        compareAtPriceRange: {
-          __typename: "ProductPriceRange",
-          maxVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "0.0",
-            currencyCode: "DKK",
-          },
-          minVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "0.0",
-            currencyCode: "DKK",
-          },
+      __typename: "Product",
+      availableForSale: true,
+      compareAtPriceRange: {
+        __typename: "ProductPriceRange",
+        maxVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "0.0",
+          currencyCode: "DKK",
         },
-        description:
-          "Vaskepose lavet i 100% økologisk bomuld - for miljøvenlig bæredygtighed og brug af færre ressourcer. Brug vaskeposen til at vaske genanvendelige lommetørklæder, stofbind eller genanvendelige rondeller. Posen kan vaskes op til 60 grader. Størrelse: 22 x 20 cm. LastObject er et dansk firma, hvis mission er at eliminere single-use hverdagsgenstande, ved at skabe genanvendelige bæredygtige alternativer. Indtil videre har de skabt LastSwab og LastTissue. Zero Waste Økologisk bomuld",
-        handle: "lastobject-vaskepose-i-100-okologisk-bomuld",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxODEzMTMyNTk=",
-        images: {
-          __typename: "ImageConnection",
-          edges: [
-            {
-              __typename: "ImageEdge",
-              node: {
-                __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MjY4NDIzNDc=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/4405013-sw_622x622_2aee9369-a961-4570-9186-e338f3193987.jpg?v=1653985422",
-                width: 622,
-              },
+        minVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "0.0",
+          currencyCode: "DKK",
+        },
+      },
+      description:
+        "Økologisk balsam til tørt og skadet hår. Denne balsam er fremstillet med aloe vera og sheabutter, som sørger for at reparere dit hår, og give det smidigheden og de bløde lokker tilbage. Certificeret økologisk. 98% af de samlede ingredienser er af naturlig oprindelse. 10% af de samlede ingredienser stammer fra økologisk landbrug. Ingredienser: Aqua (water), cetearyl alcohol, glycerin, ricinus communis (castor) seed oil, glyceryl stearate citrate, coco-caprylate, butyrospermum parkil (shea) butter, sodium stearoyl glutamate, benzyl alcohol, xanthan gum, dicaprylyl ether, lactic acid, bentonite, hydrogenated castor oil, parfum (fragrance), aloe barbadensis leaf juice powder, tocopherol, helianthus annuus (sunflower) seed oil, caesalpina spinosa gum, linalool, argan oil aminopropanediol esters, potassium sorbate, sodium hydroxide. Økologisk",
+      handle: "avril-okologisk-balsam-repair-til-t-skadet-har-200-ml",
+      id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNTIxODI1MDc=",
+      images: {
+        __typename: "ImageConnection",
+        edges: [
+          {
+            __typename: "ImageEdge",
+            node: {
+              __typename: "Image",
+              height: 349,
+              id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzNDEyODUwOTk=",
+              url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/1904078_349x349_0b0a24f7-0c8c-4c77-86fb-bf213b9c80b7.webp?v=1653984467",
+              width: 349,
             },
-            {
-              __typename: "ImageEdge",
-              node: {
-                __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MjY5MDc4ODM=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/4405013-2-sw_622x622_35fd7cb0-e392-44e1-a474-eba3c844cd90.jpg?v=1653985422",
-                width: 622,
-              },
-            },
-          ],
-        },
-        priceRange: {
-          __typename: "ProductPriceRange",
-          maxVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "55.0",
-            currencyCode: "DKK",
           },
-          minVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "55.0",
-            currencyCode: "DKK",
-          },
+        ],
+      },
+      priceRange: {
+        __typename: "ProductPriceRange",
+        maxVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "69.0",
+          currencyCode: "DKK",
         },
-        productType: "Husholdning",
-        tags: ["Rengøring", "Tøjvask"],
-        title: "LastObject - Vaskepose i 100% Økologisk Bomuld",
-        variants: {
-          __typename: "ProductVariantConnection",
-          edges: [
-            {
-              __typename: "ProductVariantEdge",
-              node: {
-                __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIyODY5NTI3NQ==",
-                title: "Default Title",
-                availableForSale: false,
-                sku: "34",
-              },
+        minVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "69.0",
+          currencyCode: "DKK",
+        },
+      },
+      productType: "Personlig pleje",
+      tags: [
+        "Flyende balsam",
+        "Hår",
+        "Hårpleje",
+        "Nyhed",
+        "Shampoo - Balsam flydende",
+      ],
+      title: "Avril - Økologisk Balsam Repair til Til Skadet Hår (200 ml)",
+      variants: {
+        __typename: "ProductVariantConnection",
+        edges: [
+          {
+            __typename: "ProductVariantEdge",
+            node: {
+              __typename: "ProductVariant",
+              id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE5MTQ3MDgyNw==",
+              title: "Default Title",
+              availableForSale: true,
+              sku: "65",
             },
-          ],
-        },
+          },
+        ],
       },
     },
     {
-      __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTc2Mjk5NzU1LCJsYXN0X3ZhbHVlIjoiMCJ9",
-      node: {
-        __typename: "Product",
-        availableForSale: false,
-        compareAtPriceRange: {
-          __typename: "ProductPriceRange",
-          maxVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "0.0",
-            currencyCode: "DKK",
-          },
-          minVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "0.0",
-            currencyCode: "DKK",
-          },
+      __typename: "Product",
+      availableForSale: true,
+      compareAtPriceRange: {
+        __typename: "ProductPriceRange",
+        maxVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "0.0",
+          currencyCode: "DKK",
         },
-        description:
-          "Sæbenødder er det eneste organiske vaskemiddel, der vokser på træer. De er meget effektive og blide på samme tid, og vil efterlade dit tøj friskt og rent. Kan bruges på alle stoffer og ved alle temperaturer fra 30 - 90 grader. 100 gram svarer til ca. 50 sæbenødder, hvilket er nok til minimum 25 vaske. Sæbenødderne pakkes i en papirspose og kommer med en vaskeguide. Læs meget mere på vores blog her. Anvendelse: Kom 4-5 hele skaller i en vaskepose og put den ind sammen med dit vasketøj. Denne portion kan bruges 4-5 gange ved vask op til 40 grader. Ved 60 grader kan du anvende sæbenødderne 1-2 gange. Sæbenødderne bliver lysegrå i farven, når der ikke er mere saponin (sæbe) i skallerne. Herefter kan de smides i komposten, i haven eller i potteplanter, hvor de giver god næring. Naturlig duft til vasketøjet: Tilsæt evt. blomstervand i sæbeskuffen - ca. 2-3 spsk. - eller essentielle/æteriske olier for at få en dejlig duft til vasketøjet. Dryp 5-10 dråber på vaskeposen med skallerne. Husk en vaskepose til dine sæbenødder. Zero Waste Vegansk / vegan Allergivenlig",
-        handle: "saebenodder-500g-i-pose",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNzYyOTk3NTU=",
-        images: {
-          __typename: "ImageConnection",
-          edges: [
-            {
-              __typename: "ImageEdge",
-              node: {
-                __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MTQ5ODAzMzE=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/Saebenodder_622x622_03f8b8a9-0ed5-490f-bb62-4503d7c71303.jpg?v=1653985285",
-                width: 622,
-              },
+        minVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "0.0",
+          currencyCode: "DKK",
+        },
+      },
+      description:
+        "Smukke strikkede karklude, der leder tankerne hen på hjemmestrik og hygge. Kludene er retstrikkede i 100% økologisk bomuld, de er super funktionelle og kan anvendes som karklud, rengøringsklud eller som vaskeklud til store og små i hele familien. Kludene er uden restprodukter fra produktionen og har derfor en fantastisk evne til at absorbere, straks du tager dem i brug, og vil hurtigt blive et ”must” i hjemmet. De er meget slidstærk og holder vask efter vask. Som et ekstra plus er der ingen mikroplast i - kort sagt et produkt med tanke bag. Pakket smukt med bånd og mærke. Alle varer er udført i Øko-tex kvalitet, både garn, indfarvning og produktionsproces er certificeret. Str. 25 x 25 cm. Fås i flere forskellige farver. Anvendelse: Vask karkludene inden brug eller læg det i blød i koldt vand i 24 timer for at opnå optimal sugeevne. Vaskes ved 60 grader. Solwang er skabt af Dorte, der med inspiration i sin farmors smukke og funktionelle hjemmestrikke karklude, skaber tekstiler, som du kan nyde at bruge i din hverdag. Alle led i produktionen understøtter bæredygtighed, og alle produkter er 100% økologiske. Økologisk",
+      handle: "solwang-oko-karklude-mork-petrol-3pak",
+      id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNTc4ODQxMzk=",
+      images: {
+        __typename: "ImageConnection",
+        edges: [
+          {
+            __typename: "ImageEdge",
+            node: {
+              __typename: "Image",
+              height: 622,
+              id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzNjU3MzAwMjc=",
+              url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5706077-1_622x622_6cff7484-9f6e-475d-9152-1d12a479d5e9.jpg?v=1653984780",
+              width: 622,
             },
-          ],
-        },
-        priceRange: {
-          __typename: "ProductPriceRange",
-          maxVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "50.0",
-            currencyCode: "DKK",
           },
-          minVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "50.0",
-            currencyCode: "DKK",
-          },
-        },
-        productType: "Husholdning",
-        tags: ["Rengøring", "Tøjvask"],
-        title: "Sæbenødder 500G I Pose",
-        variants: {
-          __typename: "ProductVariantConnection",
-          edges: [
-            {
-              __typename: "ProductVariantEdge",
-              node: {
-                __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIyMjMwNTUxNQ==",
-                title: "Default Title",
-                availableForSale: false,
-                sku: "89",
-              },
+          {
+            __typename: "ImageEdge",
+            node: {
+              __typename: "Image",
+              height: 622,
+              id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzNjU2OTcyNTk=",
+              url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5706077-2_622x622_de746e7e-8359-40be-889c-4b15be66d3fd.jpg?v=1653984780",
+              width: 622,
             },
-          ],
+          },
+        ],
+      },
+      priceRange: {
+        __typename: "ProductPriceRange",
+        maxVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "89.0",
+          currencyCode: "DKK",
         },
+        minVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "89.0",
+          currencyCode: "DKK",
+        },
+      },
+      productType: "Husholdning",
+      tags: ["Klude", "Tekstiler"],
+      title: "Solwang Øko Karklude Mørk Petrol 3Pak",
+      variants: {
+        __typename: "ProductVariantConnection",
+        edges: [
+          {
+            __typename: "ProductVariantEdge",
+            node: {
+              __typename: "ProductVariant",
+              id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE5OTc2MTEzMQ==",
+              title: "Default Title",
+              availableForSale: true,
+              sku: "",
+            },
+          },
+        ],
       },
     },
     {
-      __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTY1MjU2OTM5LCJsYXN0X3ZhbHVlIjoiMCJ9",
-      node: {
-        __typename: "Product",
-        availableForSale: false,
-        compareAtPriceRange: {
-          __typename: "ProductPriceRange",
-          maxVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "0.0",
-            currencyCode: "DKK",
-          },
-          minVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "0.0",
-            currencyCode: "DKK",
-          },
+      __typename: "Product",
+      availableForSale: false,
+      compareAtPriceRange: {
+        __typename: "ProductPriceRange",
+        maxVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "0.0",
+          currencyCode: "DKK",
         },
-        description:
-          "2 stk strikkede karklude i økologisk bomuld. De har god absorberingsevne og kan bruges igen og igen",
-        handle: "ingerslev-oko-karklude-gron-2-stk",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNjUyNTY5Mzk=",
-        images: {
-          __typename: "ImageConnection",
-          edges: [
-            {
-              __typename: "ImageEdge",
-              node: {
-                __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzODUzOTA4Mjc=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5706078-1_622x622_98b29efe-b8b7-42fc-b863-a7a78a424458.jpg?v=1653984983",
-                width: 622,
-              },
+        minVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "0.0",
+          currencyCode: "DKK",
+        },
+      },
+      description:
+        "Sæbenødder er det eneste organiske vaskemiddel, der vokser på træer. De er meget effektive og blide på samme tid, og vil efterlade dit tøj friskt og rent. Kan bruges på alle stoffer og ved alle temperaturer fra 30 - 90 grader. 100 gram svarer til ca. 50 sæbenødder, hvilket er nok til minimum 25 vaske. Sæbenødderne pakkes i en papirspose og kommer med en vaskeguide. Læs meget mere på vores blog her. Anvendelse: Kom 4-5 hele skaller i en vaskepose og put den ind sammen med dit vasketøj. Denne portion kan bruges 4-5 gange ved vask op til 40 grader. Ved 60 grader kan du anvende sæbenødderne 1-2 gange. Sæbenødderne bliver lysegrå i farven, når der ikke er mere saponin (sæbe) i skallerne. Herefter kan de smides i komposten, i haven eller i potteplanter, hvor de giver god næring. Naturlig duft til vasketøjet: Tilsæt evt. blomstervand i sæbeskuffen - ca. 2-3 spsk. - eller essentielle/æteriske olier for at få en dejlig duft til vasketøjet. Dryp 5-10 dråber på vaskeposen med skallerne. Husk en vaskepose til dine sæbenødder. Zero Waste Vegansk / vegan Allergivenlig",
+      handle: "saebenodder-500g-i-pose",
+      id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNzYyOTk3NTU=",
+      images: {
+        __typename: "ImageConnection",
+        edges: [
+          {
+            __typename: "ImageEdge",
+            node: {
+              __typename: "Image",
+              height: 622,
+              id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MTQ5ODAzMzE=",
+              url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/Saebenodder_622x622_03f8b8a9-0ed5-490f-bb62-4503d7c71303.jpg?v=1653985285",
+              width: 622,
             },
-            {
-              __typename: "ImageEdge",
-              node: {
-                __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzODUzNTgwNTk=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5706078-2_622x622_740a7b1e-5da9-4f4c-a04f-06b41ae60546.jpg?v=1653984983",
-                width: 622,
-              },
-            },
-          ],
-        },
-        priceRange: {
-          __typename: "ProductPriceRange",
-          maxVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "79.0",
-            currencyCode: "DKK",
           },
-          minVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "79.0",
-            currencyCode: "DKK",
-          },
+        ],
+      },
+      priceRange: {
+        __typename: "ProductPriceRange",
+        maxVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "50.0",
+          currencyCode: "DKK",
         },
-        productType: "Husholdning",
-        tags: ["Klude", "Tekstiler"],
-        title: "Ingerslev Øko Karklude Grøn (2 stk)",
-        variants: {
-          __typename: "ProductVariantConnection",
-          edges: [
-            {
-              __typename: "ProductVariantEdge",
-              node: {
-                __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIwODY0MTI1OQ==",
-                title: "Default Title",
-                availableForSale: false,
-                sku: "49",
-              },
+        minVariantPrice: {
+          __typename: "MoneyV2",
+          amount: "50.0",
+          currencyCode: "DKK",
+        },
+      },
+      productType: "Husholdning",
+      tags: ["Rengøring", "Tøjvask"],
+      title: "Sæbenødder 500G I Pose",
+      variants: {
+        __typename: "ProductVariantConnection",
+        edges: [
+          {
+            __typename: "ProductVariantEdge",
+            node: {
+              __typename: "ProductVariant",
+              id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIyMjMwNTUxNQ==",
+              title: "Default Title",
+              availableForSale: false,
+              sku: "89",
             },
-          ],
-        },
+          },
+        ],
       },
     },
   ],

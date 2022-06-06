@@ -23,8 +23,8 @@ const state = reactive({ desktop: true });
       <ProductCard
         v-for="(product, index) in wishProducts.edges"
         :index="index"
-        :key="product.node.id"
-        :product="product.node"
+        :key="product.id"
+        :product="product"
         wishlist
       />
     </ProductGrid>

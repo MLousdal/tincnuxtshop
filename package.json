@@ -5,14 +5,10 @@
     "node": "14"
   },
   "scripts": {
-    "layer0:dev": "layer0 dev",
-    "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy",
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "get-shopify-fragment-types": "node ./apollo/schemaQuery.mjs",
-    "deploy": "layer0 deploy"
+    "get-shopify-fragment-types": "node ./apollo/schemaQuery.mjs"
   },
   "devDependencies": {
     "@apollo/client": "^3.5.6",

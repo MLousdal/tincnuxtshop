@@ -3,14 +3,14 @@
 }
 
 .navBtn {
-  display: none;
+  display: none !important;
   width: 30px;
   height: 30px;
   cursor: pointer;
   overflow: hidden !important;
 
   @media (max-width: 1210px) {
-    display: block;
+    display: block !important;
   }
 
   div {

@@ -1,159 +1,159 @@
 export const navLinks = [
   {
-    img: "/images/neauthy-skincare.jpg",
+    img: "/images/personlig-pleje.jpg",
     title: "Personlig pleje",
     path: "/personlig-pleje",
     subMenus: [
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/bad-og-sæbe.jpg",
         title: "Bad og sæbe",
         path: "/personlig-pleje/bad-og-saebe",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/badtilbehør.jpg",
             title: "Bad tilbehør",
             path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/bodyscrub.jpg",
             title: "Bodyscrub",
             path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/håndsæbe.jpg",
             title: "Håndsæbe",
             path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/sæbeskåle.jpg",
             title: "Sæber og sæbeskåle",
             path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/hygiejne.jpg",
         title: "Hygiejne",
         path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
-            title: "Babering",
+            img: "/images/barbering.jpg",
+            title: "Barbering",
             path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/Deodorant.jpg",
             title: "Deodorant",
             path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/intimhygiejne.jpg",
             title: "Intimhygiejne",
             path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/lommetørklæder.jpg",
             title: "Lommetørklæder",
             path: "/personlig-pleje/Hygiejne/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/tekstiler.jpg",
             title: "Plaster",
             path: "/personlig-pleje/Hygiejne/gavekort",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/har.jpg",
         title: "Hår",
         path: "/personlig-pleje/har",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/hårbørster-kamme.jpg",
             title: "Hårbørster, Kamme & Sakse",
             path: "/personlig-pleje/har/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/har.jpg",
             title: "Hårfarve",
             path: "/personlig-pleje/har/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/Hårserum.jpg",
             title: "Hårserum, Kur & Massage",
             path: "/personlig-pleje/har/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/hårpynt.jpg",
             title: "Hårpynt",
             path: "/personlig-pleje/har/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/shampoo-og-balsam.jpg",
             title: "Shampoo - Balsam",
             path: "/personlig-pleje/har/shampoo-balsam",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/Styling-og-tørshampoo.jpg",
             title: "Styling & Tørshampoo",
             path: "/personlig-pleje/har/gavekort",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/kosmetik.jpg",
         title: "Kosmetik",
         path: "/personlig-pleje/kosmetik",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/ansigt.jpg",
             title: "Ansigt",
             path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/eau-de-toilette.jpg",
             title: "Eau de Toilette",
             path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/læber.jpg",
             title: "Læber",
             path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/makeupbørster-og-tilbehør.jpg",
             title: "Makeup børster & tilbehør",
             path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/læber.jpg",
             title: "Neglelak & negletilbehør",
             path: "/personlig-pleje/kosmetik/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/øjne.jpg",
             title: "Øjne",
             path: "/personlig-pleje/kosmetik/ojne",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/kropspleje.jpg",
         title: "Kropspleje",
         path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/ansigtscreme.jpg",
             title: "Ansigtscreme",
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/kropspleje.jpg",
             title: "Bodylotion",
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/kropspleje.jpg",
             title: "Fodpleje",
             path: "/personlig-pleje/gavekort/gavekort",
           },
@@ -163,97 +163,97 @@ export const navLinks = [
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/læbepromade.jpg",
             title: "Læbepomade",
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/badtilbehør.jpg",
             title: "Massage",
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/badtilbehør.jpg",
             title: "Rens & tilbehør",
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/Solcreme.jpg",
             title: "Solcreme & aftersun",
             path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/mor-og-barn.jpg",
         title: "Mor og barn",
         path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/mor-og-barn.jpg",
             title: "Baby",
             path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/tandpleje.jpg",
         title: "Tandpleje",
         path: "/personlig-pleje/tandpleje",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/tandpleje.jpg",
             title: "Tandpleje",
             path: "/personlig-pleje/tandpleje/tandpleje",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/naturlige-olier-og-kosmetiske-råvarer.jpg",
         title: "Natulige olier & kosmetriske råvare",
         path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/naturlig-dugt.jpg",
             title: "Naturlig duft",
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/naturlige-olier.jpg",
             title: "Naturlig olie",
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/naturlige-olier-og-kosmetiske-råvarer.jpg",
             title: "Kosmetiske råvarer",
             path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/rondeller-og-vatpinde.jpg",
         title: "Rondeller og vatpinde",
         path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/rondeller-og-vatpinde.jpg",
             title: "Vatpinde og ørerensere",
             path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
       },
       {
-        img: "/images/neauthy-skincare.jpg",
+        img: "/images/tilbehør-(personlig-pleje).jpg",
         title: "Tilbehør",
         path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/tilbehør-(personlig-pleje).jpg",
             title: "Toilettasker",
             path: "/personlig-pleje/gavekort/gavekort",
           },
           {
-            img: "/images/neauthy-skincare.jpg",
+            img: "/images/tilbehør-(personlig-pleje).jpg",
             title: "Varmepude",
             path: "/personlig-pleje/gavekort/gavekort",
           },
@@ -262,17 +262,17 @@ export const navLinks = [
     ],
   },
   {
-    img: "/images/ella-olsson.jpg",
+    img: "/images/husholdning.jpg",
     title: "Husholdning",
     path: "/husholdning",
     subMenus: [
       {
-        img: "/images/ella-olsson.jpg",
+        img: "/images/boligtilbehør.jpg",
         title: "Boligtilbehør",
         path: "/husholdning/boligtilbehor",
         subSubMenus: [
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/boligtilbehør.jpg",
             title: "Duft, røgelse & lys",
             path: "/husholdning/boligtilbehor/gavekort",
           },
@@ -323,54 +323,54 @@ export const navLinks = [
         ],
       },
       {
-        img: "/images/ella-olsson.jpg",
+        img: "/images/rengøring.jpg",
         title: "Rengøring(sartikler)",
         path: "/husholdning/rengoring",
         subSubMenus: [
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/rengøring.jpg",
             title: "Børste & svampe",
             path: "/husholdning/rengoring/gavekort",
           },
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/rengøring.jpg",
             title: "Koste & fejebakker",
             path: "/husholdning/rengoring/gavekort",
           },
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/opvask.jpg",
             title: "Opvask",
             path: "/husholdning/rengoring/gavekort",
           },
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/rengøring.jpg",
             title: "Rengøringsmidler",
             path: "/husholdning/rengoring/gavekort",
           },
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/tøjvask.jpg",
             title: "Tøjvask",
             path: "/husholdning/rengoring/tojvask",
           },
         ],
       },
       {
-        img: "/images/ella-olsson.jpg",
+        img: "/images/tekstiler.jpg",
         title: "Tekstiler",
         path: "/husholdning/tekstiler",
         subSubMenus: [
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/tekstiler.jpg",
             title: "Håndklæder",
             path: "/husholdning/tekstiler/gavekort",
           },
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/tekstiler.jpg",
             title: "Klude",
             path: "/husholdning/tekstiler/klude",
           },
           {
-            img: "/images/ella-olsson.jpg",
+            img: "/images/tekstiler.jpg",
             title: "Viskestykker",
             path: "/husholdning/tekstiler/gavekort",
           },
@@ -381,52 +381,52 @@ export const navLinks = [
   {
     title: "Fødevare",
     path: "/fodevare",
-    img: "/images/anh-nguyen.jpg",
+    img: "/images/fødevarer.jpg",
     subMenus: [
       {
-        img: "/images/anh-nguyen.jpg",
+        img: "/images/mad-kolonial.jpg",
         title: "Mad - kolonial",
         path: "/fodevare/mad-kolonial",
         subSubMenus: [
           {
-            img: "/images/anh-nguyen.jpg",
+            img: "/images/mad-kolonial.jpg",
             title: "Kolonial",
             path: "/fodevare/mad-kolonial/mad-kolonial-1",
           },
           {
-            img: "/images/anh-nguyen.jpg",
+            img: "/images/mad-kolonial.jpg",
             title: "Konfekture",
             path: "/fodevare/mad-kolonial/gavekort",
           },
           {
-            img: "/images/anh-nguyen.jpg",
+            img: "/images/mad-kolonial.jpg",
             title: "Krydderier, Urter, Blomster & Pulver",
             path: "/fodevare/mad-kolonial/gavekort",
           },
           {
-            img: "/images/anh-nguyen.jpg",
+            img: "/images/mad-kolonial.jpg",
             title: "Slik",
             path: "/fodevare/mad-kolonial/gavekort",
           },
           {
-            img: "/images/anh-nguyen.jpg",
+            img: "/images/mad-kolonial.jpg",
             title: "Tyggeegummi",
             path: "/fodevare/mad-kolonial/gavekort",
           },
         ],
       },
       {
-        img: "/images/anh-nguyen.jpg",
+        img: "/images/Drikkevarer.jpg",
         title: "Drikkevare",
         path: "/fodevare/drikkevare",
         subSubMenus: [
           {
-            img: "/images/anh-nguyen.jpg",
+            img: "/images/Drikkevarer.jpg",
             title: "drikkevarer",
             path: "/fodevare/drikkevare/gavekort",
           },
           {
-            img: "/images/anh-nguyen.jpg",
+            img: "/images/Drikkevarer.jpg",
             title: "Kaffe & te",
             path: "/fodevare/drikkevare/kaffe-te-og-kakao",
           },
@@ -685,10 +685,10 @@ export const baseProducts = {
   edges: [
     {
       __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTgxMzEzMjU5LCJsYXN0X3ZhbHVlIjoiMCJ9",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MjAxMTA1MTMxLCJsYXN0X3ZhbHVlIjoiMCJ9",
       node: {
         __typename: "Product",
-        availableForSale: false,
+        availableForSale: true,
         compareAtPriceRange: {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
@@ -703,9 +703,9 @@ export const baseProducts = {
           },
         },
         description:
-          "Vaskepose lavet i 100% økologisk bomuld - for miljøvenlig bæredygtighed og brug af færre ressourcer. Brug vaskeposen til at vaske genanvendelige lommetørklæder, stofbind eller genanvendelige rondeller. Posen kan vaskes op til 60 grader. Størrelse: 22 x 20 cm. LastObject er et dansk firma, hvis mission er at eliminere single-use hverdagsgenstande, ved at skabe genanvendelige bæredygtige alternativer. Indtil videre har de skabt LastSwab og LastTissue. Zero Waste Økologisk bomuld",
-        handle: "lastobject-vaskepose-i-100-okologisk-bomuld",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxODEzMTMyNTk=",
+          "Denttabs er 100% naturlige og veganske tandpastatabletter, der både giver dig rene tænder og sparer miljøet for en masse unødig plastikemballage. Denttabs indeholder ikke traditionelt slibemiddel, men derimod cellulose mikrofibre. Fibrene giver en meget nænsom polering af tænderne i stedet for den sædvanlige slibning, men med en fremragende virkning. Med frisk smag af mint. AnvendelseKnus en Denttabs tablet mellem tænderne, tabletten opløses med dit spyt og giver en pasta, som du med en fugtig tandbørste fordeler let i munden før du børster. Børst nænsomt og skyl munden fuldstændigt som du plejer - gerne i 2 minutter. Fås også med fluor. Hvor mange Denttabs skal du bruge? 40 g. svarer til ca. 120 tabletter. Dette er nok til én person i 2 måneder. Vi pakker dine Denttabs i en papirspose. Ønsker du ikke at opbevare dem i posen, anbefaler vi, at hælde dem over i en lufttæt emballage.Ingidienser Microcrystalline cellulose, sodium bicarbonate, citric acid, silica, sodium laurel glutamate, magnesium stearate, natural mint aroma of menthol, stevia, xantham gum, eugenol. Zero Waste Vegansk / vegan",
+        handle: "denttabs-tandpastapiller-uden-fluor-pris-pr-gram",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkyMDExMDUxMzE=",
         images: {
           __typename: "ImageConnection",
           edges: [
@@ -713,20 +713,20 @@ export const baseProducts = {
               __typename: "ImageEdge",
               node: {
                 __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MjY4NDIzNDc=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/4405013-sw_622x622_2aee9369-a961-4570-9186-e338f3193987.jpg?v=1653985422",
-                width: 622,
+                height: 1000,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0NzkxNzI4NDM=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/8206002-sw_1-sw_1000x1000_ba4634d5-b832-4744-be62-699457f3bdce.jpg?v=1653985983",
+                width: 1000,
               },
             },
             {
               __typename: "ImageEdge",
               node: {
                 __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MjY5MDc4ODM=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/4405013-2-sw_622x622_35fd7cb0-e392-44e1-a474-eba3c844cd90.jpg?v=1653985422",
-                width: 622,
+                height: 1000,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0NzkyMDU2MTE=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/8206002-3-sw_1_1-sw_1000x1000_14c10c39-c116-4100-9d3c-203b071dfcb5.jpg?v=1653985983",
+                width: 1000,
               },
             },
           ],
@@ -735,18 +735,18 @@ export const baseProducts = {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
             __typename: "MoneyV2",
-            amount: "55.0",
+            amount: "1.2",
             currencyCode: "DKK",
           },
           minVariantPrice: {
             __typename: "MoneyV2",
-            amount: "55.0",
+            amount: "1.2",
             currencyCode: "DKK",
           },
         },
-        productType: "Husholdning",
-        tags: ["Rengøring", "Tøjvask"],
-        title: "LastObject - Vaskepose i 100% Økologisk Bomuld",
+        productType: "Personlig pleje",
+        tags: ["Nyhed", "Tandpleje"],
+        title: "Denttabs - Tandpastapiller uden Fluor (pris pr. gram)",
         variants: {
           __typename: "ProductVariantConnection",
           edges: [
@@ -754,10 +754,10 @@ export const baseProducts = {
               __typename: "ProductVariantEdge",
               node: {
                 __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIyODY5NTI3NQ==",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDI1Nzg1ODc5NQ==",
                 title: "Default Title",
-                availableForSale: false,
-                sku: "34",
+                availableForSale: true,
+                sku: "102",
               },
             },
           ],
@@ -766,10 +766,10 @@ export const baseProducts = {
     },
     {
       __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTc2Mjk5NzU1LCJsYXN0X3ZhbHVlIjoiMCJ9",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MTgyMjMwNzYzLCJsYXN0X3ZhbHVlIjoiMCJ9",
       node: {
         __typename: "Product",
-        availableForSale: false,
+        availableForSale: true,
         compareAtPriceRange: {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
@@ -784,9 +784,9 @@ export const baseProducts = {
           },
         },
         description:
-          "Sæbenødder er det eneste organiske vaskemiddel, der vokser på træer. De er meget effektive og blide på samme tid, og vil efterlade dit tøj friskt og rent. Kan bruges på alle stoffer og ved alle temperaturer fra 30 - 90 grader. 100 gram svarer til ca. 50 sæbenødder, hvilket er nok til minimum 25 vaske. Sæbenødderne pakkes i en papirspose og kommer med en vaskeguide. Læs meget mere på vores blog her. Anvendelse: Kom 4-5 hele skaller i en vaskepose og put den ind sammen med dit vasketøj. Denne portion kan bruges 4-5 gange ved vask op til 40 grader. Ved 60 grader kan du anvende sæbenødderne 1-2 gange. Sæbenødderne bliver lysegrå i farven, når der ikke er mere saponin (sæbe) i skallerne. Herefter kan de smides i komposten, i haven eller i potteplanter, hvor de giver god næring. Naturlig duft til vasketøjet: Tilsæt evt. blomstervand i sæbeskuffen - ca. 2-3 spsk. - eller essentielle/æteriske olier for at få en dejlig duft til vasketøjet. Dryp 5-10 dråber på vaskeposen med skallerne. Husk en vaskepose til dine sæbenødder. Zero Waste Vegansk / vegan Allergivenlig",
-        handle: "saebenodder-500g-i-pose",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNzYyOTk3NTU=",
+          "Håndlavet og smuk gul håndsæbebar med en frisk duft af citrus og appelsin og med tørrede appelsinskiver på toppen. Håndskåret i butikken. Husk en sæbeskål til din sæbebar, så den kan tørre ud mellem hvert brug. Læs om 5 lette ændringer som gør dit badeværelse mere bæredygtigt her. 100% håndlavet Ingredienser: Aqua, Glycerin, Sorbitol, Sodium Stearate, Sodium Laurate, Propylene Glycol, Sodium Oleate, Sodium Myristate, Sodium Chrloride, Citrus Sinensis Oil, Citrus Sinensis Fruit (Orange Slice), Cocos Nucifera (Coconut) Oil, Glyceryl Laurate, Cocamidopropyl Betaine, Sodium Thiosulfate, Sodium Citrate, Citric Acid, Trisodium Sulfosuccinate, Pentasodium Pentetate, Tetrasodium Etidronate, CI 77891, CI 19140, Limonene, Cinnamal, Citral, Linalool, Eugenol.",
+        handle: "handskaret-handsaebe-slice-of-sunshine-110-g",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxODIyMzA3NjM=",
         images: {
           __typename: "ImageConnection",
           edges: [
@@ -794,10 +794,10 @@ export const baseProducts = {
               __typename: "ImageEdge",
               node: {
                 __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MTQ5ODAzMzE=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/Saebenodder_622x622_03f8b8a9-0ed5-490f-bb62-4503d7c71303.jpg?v=1653985285",
-                width: 622,
+                height: 349,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0Mjk0NjM3ODc=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/3302059-sw_349x349_1b0e7e99-f119-4680-9099-745976a2e528.webp?v=1653985449",
+                width: 349,
               },
             },
           ],
@@ -806,18 +806,25 @@ export const baseProducts = {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
             __typename: "MoneyV2",
-            amount: "50.0",
+            amount: "29.0",
             currencyCode: "DKK",
           },
           minVariantPrice: {
             __typename: "MoneyV2",
-            amount: "50.0",
+            amount: "29.0",
             currencyCode: "DKK",
           },
         },
-        productType: "Husholdning",
-        tags: ["Rengøring", "Tøjvask"],
-        title: "Sæbenødder 500G I Pose",
+        productType: "Personlig pleje",
+        tags: [
+          "Bad og sæbe",
+          "Håndsæbe",
+          "Kropspleje",
+          "Nedsat",
+          "Personlig pleje",
+          "Sæber og sæbeskåle",
+        ],
+        title: "Håndskåret Håndsæbe Slice of Sunshine (110 g)",
         variants: {
           __typename: "ProductVariantConnection",
           edges: [
@@ -825,10 +832,10 @@ export const baseProducts = {
               __typename: "ProductVariantEdge",
               node: {
                 __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIyMjMwNTUxNQ==",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIyOTgwOTM4Nw==",
                 title: "Default Title",
-                availableForSale: false,
-                sku: "89",
+                availableForSale: true,
+                sku: "",
               },
             },
           ],
@@ -837,10 +844,10 @@ export const baseProducts = {
     },
     {
       __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTY1MjU2OTM5LCJsYXN0X3ZhbHVlIjoiMCJ9",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MTc5NzczMTYzLCJsYXN0X3ZhbHVlIjoiMCJ9",
       node: {
         __typename: "Product",
-        availableForSale: false,
+        availableForSale: true,
         compareAtPriceRange: {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
@@ -855,9 +862,9 @@ export const baseProducts = {
           },
         },
         description:
-          "2 stk strikkede karklude i økologisk bomuld. De har god absorberingsevne og kan bruges igen og igen",
-        handle: "ingerslev-oko-karklude-gron-2-stk",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNjUyNTY5Mzk=",
+          "Håndlavet og smuk sæbebar med jasmin og grøn te, der plejer dine hænder. Grøn te har en beroligende effekt på tør hud. Med en skøn sød duft af jasmin. Håndskåret i butikken. Husk en sæbeskål til din sæbebar, så den kan tørre ud mellem hvert brug. Læs om 5 lette ændringer som gør dit badeværelse mere bæredygtigt her. 100% håndlavet Ingredienser: Aqua, Glycerine, Sodium Stearate, Propylene Glycol, Sorbitol, Sodium Laurate, Sodium Laureth Sulfate, Disoduim Laureth Sulfosuccinate, Silica, Sodium Chloride, Titanium Dioxide, Stearic Acid, Lauric Acid, Tetrasodium EDTA, Parfum, CI 77891, CI 74160, CI 51319, CI 21108, CI 77266, Limonene, Linalool, Citronellol, Hydroxycitronellal, Geraniol, Benzyl Benzoate, Benzyl Salicylate, Farnesol, Citral, Eugenol, Isoeugenol.",
+        handle: "handskaret-handsaebe-jasmine-green-tea-swivel-ca-110-g",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNzk3NzMxNjM=",
         images: {
           __typename: "ImageConnection",
           edges: [
@@ -865,20 +872,10 @@ export const baseProducts = {
               __typename: "ImageEdge",
               node: {
                 __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzODUzOTA4Mjc=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5706078-1_622x622_98b29efe-b8b7-42fc-b863-a7a78a424458.jpg?v=1653984983",
-                width: 622,
-              },
-            },
-            {
-              __typename: "ImageEdge",
-              node: {
-                __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzODUzNTgwNTk=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5706078-2_622x622_740a7b1e-5da9-4f4c-a04f-06b41ae60546.jpg?v=1653984983",
-                width: 622,
+                height: 349,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MjMxNzIzMzE=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/3302284-sw_349x349_3fcf5431-69b9-4336-8901-d1b323c4ceb6.webp?v=1653985381",
+                width: 349,
               },
             },
           ],
@@ -887,18 +884,24 @@ export const baseProducts = {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
             __typename: "MoneyV2",
-            amount: "79.0",
+            amount: "29.0",
             currencyCode: "DKK",
           },
           minVariantPrice: {
             __typename: "MoneyV2",
-            amount: "79.0",
+            amount: "29.0",
             currencyCode: "DKK",
           },
         },
-        productType: "Husholdning",
-        tags: ["Klude", "Tekstiler"],
-        title: "Ingerslev Øko Karklude Grøn (2 stk)",
+        productType: "Personlig pleje",
+        tags: [
+          "Bad og sæbe",
+          "Håndsæbe",
+          "Kropspleje",
+          "Nedsat",
+          "Sæber og sæbeskåle",
+        ],
+        title: "Håndskåret Håndsæbe Jasmine & Green Tea Swivel (ca 110 g)",
         variants: {
           __typename: "ProductVariantConnection",
           edges: [
@@ -906,10 +909,88 @@ export const baseProducts = {
               __typename: "ProductVariantEdge",
               node: {
                 __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIwODY0MTI1OQ==",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIyNjU2NTM1NQ==",
                 title: "Default Title",
-                availableForSale: false,
-                sku: "49",
+                availableForSale: true,
+                sku: "",
+              },
+            },
+          ],
+        },
+      },
+    },
+    {
+      __typename: "ProductEdge",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MTcyNjI5NzM5LCJsYXN0X3ZhbHVlIjoiMCJ9",
+      node: {
+        __typename: "Product",
+        availableForSale: true,
+        compareAtPriceRange: {
+          __typename: "ProductPriceRange",
+          maxVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.0",
+            currencyCode: "DKK",
+          },
+          minVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.0",
+            currencyCode: "DKK",
+          },
+        },
+        description:
+          "Balsambar med en opkvikkende duft af grøn te, håndlavet i Holland. Den vidunderlige sød duft af grøn te, den smukke farve og sammensætningen af naturlige ingredienser vil automatisk give dig et stort smil på læben. De naturlige ingredienser fugter og nærer også dit hår, gør dit hår vidunderligt blødt og sikrer, at det falder godt. For en god hårdag hver dag! Indeholder 5 vigtige ingredienser: grøn te, sheasmør, kakaosmør, arganolie og olivenolie. Grøn te har udover en dejlig duft også en beroligende virkning og modvirker tør hovedbund. Sheasmør har en beroligende effekt på din hud. Kakaosmør lindrer irritation, holder hovedbunden ung og er rig på vitaminer, der giver sundt hår. Arganolie er fyldt med vitamin E, der styrker håret og får det til at skinne. Olivenolie er rig på antioxidanter, der aktivt bekæmper aldring af huden. Balsambaren er PH neutral, uden SLS og SLES og uden palmeolie. Én bar er nok til 90 - 110 hårvask. Husk en sæbeskål til din balsambar, så den kan tørre ud mellem hvert brug. Ingredienser: Cetyl Alcohol, Butyrospermum Parkii Butter, Sunfloweroyl Methyl Glucamide, Aqua, Parfum, Theobroma Cacao Seed Butter, Olea Europaea Fruit Oil, Hexyl Cinnamal, Linalool, Limonene, Citronellol, Geraniol, Argania Spinosa Kernel Oil, Glycerin, Citral, CI 11680, Hydroxycitronellal, Camellia Sinensis Leaf Extract, CI 74260. Zero Waste Vegansk / vegan Uden palmeolie",
+        handle: "happysoaps-green-tea-happiness-balsambar-65-g",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNzI2Mjk3Mzk=",
+        images: {
+          __typename: "ImageConnection",
+          edges: [
+            {
+              __typename: "ImageEdge",
+              node: {
+                __typename: "Image",
+                height: 349,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDg0MDUxODI2OTk=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/1904071-sw_349x349_726bd6c4-f143-410c-9c7b-ac907de8a049.webp?v=1653985184",
+                width: 349,
+              },
+            },
+          ],
+        },
+        priceRange: {
+          __typename: "ProductPriceRange",
+          maxVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "89.0",
+            currencyCode: "DKK",
+          },
+          minVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "89.0",
+            currencyCode: "DKK",
+          },
+        },
+        productType: "Personlig pleje",
+        tags: [
+          "Bad og sæbe",
+          "Håndsæbe",
+          "Personlig pleje",
+          "Shampoo",
+          "Shampoo - Balsam bar",
+          "Sæber og sæbeskåle",
+        ],
+        title: "HappySoaps - Green Tea Happiness Balsambar (65 g)",
+        variants: {
+          __typename: "ProductVariantConnection",
+          edges: [
+            {
+              __typename: "ProductVariantEdge",
+              node: {
+                __typename: "ProductVariant",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDIxNzYxOTY5MQ==",
+                title: "Default Title",
+                availableForSale: true,
+                sku: "",
               },
             },
           ],
@@ -978,7 +1059,7 @@ export const baseProducts = {
           },
         },
         productType: "Husholdning",
-        tags: ["Klude", "Tekstiler"],
+        tags: ["Klude", "Nyhed", "Tekstiler"],
         title: "LAPAL Microfiber Klude 5Pak.",
         variants: {
           __typename: "ProductVariantConnection",
@@ -1080,7 +1161,7 @@ export const baseProducts = {
     },
     {
       __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTUxODIyMDU5LCJsYXN0X3ZhbHVlIjoiMCJ9",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MTUyMTgyNTA3LCJsYXN0X3ZhbHVlIjoiMCJ9",
       node: {
         __typename: "Product",
         availableForSale: true,
@@ -1098,9 +1179,9 @@ export const baseProducts = {
           },
         },
         description:
-          "Amber glasflaske med pipette. Størrelse 15 ml. Fås i flere forskellige størrelser. Zero Waste",
-        handle: "amber-glasflaske-med-pipette-15-ml",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNTE4MjIwNTk=",
+          "Økologisk balsam til tørt og skadet hår. Denne balsam er fremstillet med aloe vera og sheabutter, som sørger for at reparere dit hår, og give det smidigheden og de bløde lokker tilbage. Certificeret økologisk. 98% af de samlede ingredienser er af naturlig oprindelse. 10% af de samlede ingredienser stammer fra økologisk landbrug. Ingredienser: Aqua (water), cetearyl alcohol, glycerin, ricinus communis (castor) seed oil, glyceryl stearate citrate, coco-caprylate, butyrospermum parkil (shea) butter, sodium stearoyl glutamate, benzyl alcohol, xanthan gum, dicaprylyl ether, lactic acid, bentonite, hydrogenated castor oil, parfum (fragrance), aloe barbadensis leaf juice powder, tocopherol, helianthus annuus (sunflower) seed oil, caesalpina spinosa gum, linalool, argan oil aminopropanediol esters, potassium sorbate, sodium hydroxide. Økologisk",
+        handle: "avril-okologisk-balsam-repair-til-t-skadet-har-200-ml",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNTIxODI1MDc=",
         images: {
           __typename: "ImageConnection",
           edges: [
@@ -1108,10 +1189,10 @@ export const baseProducts = {
               __typename: "ImageEdge",
               node: {
                 __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzMzg5NTg1NzE=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5405051-sw_622x622_342b2976-0827-4d4e-92f8-5604e8bcdfd5.jpg?v=1653984419",
-                width: 622,
+                height: 349,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzNDEyODUwOTk=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/1904078_349x349_0b0a24f7-0c8c-4c77-86fb-bf213b9c80b7.webp?v=1653984467",
+                width: 349,
               },
             },
           ],
@@ -1120,18 +1201,24 @@ export const baseProducts = {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
             __typename: "MoneyV2",
-            amount: "14.0",
+            amount: "69.0",
             currencyCode: "DKK",
           },
           minVariantPrice: {
             __typename: "MoneyV2",
-            amount: "14.0",
+            amount: "69.0",
             currencyCode: "DKK",
           },
         },
-        productType: "Husholdning",
-        tags: ["Boligtilbehør", "Glasflasker og beholdere"],
-        title: "Amber Glasflaske med Pipette (15 ml)",
+        productType: "Personlig pleje",
+        tags: [
+          "Flyende balsam",
+          "Hår",
+          "Hårpleje",
+          "Nyhed",
+          "Shampoo - Balsam flydende",
+        ],
+        title: "Avril - Økologisk Balsam Repair til Til Skadet Hår (200 ml)",
         variants: {
           __typename: "ProductVariantConnection",
           edges: [
@@ -1139,7 +1226,78 @@ export const baseProducts = {
               __typename: "ProductVariantEdge",
               node: {
                 __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE4OTYwMzA1MQ==",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE5MTQ3MDgyNw==",
+                title: "Default Title",
+                availableForSale: true,
+                sku: "65",
+              },
+            },
+          ],
+        },
+      },
+    },
+    {
+      __typename: "ProductEdge",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MTUxNzU2NTIzLCJsYXN0X3ZhbHVlIjoiMCJ9",
+      node: {
+        __typename: "Product",
+        availableForSale: true,
+        compareAtPriceRange: {
+          __typename: "ProductPriceRange",
+          maxVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.0",
+            currencyCode: "DKK",
+          },
+          minVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.0",
+            currencyCode: "DKK",
+          },
+        },
+        description:
+          'Lokal og bæredygtig honning fra BISTAD. Honningen er fra "den grønne pulje", hvilket sikrer at der ikke er anvendt pesticider i biavlen. Har ikke været opvarmet. Honningen fra de enkelte bigårde holdes seperat for at sikre et ultra lokalt produkt. BISTAD er en social-økonomisk virksomhed i Aarhus, der beskæftiger socialt udsatte. Ved at købe dette produkt støtter du deres arbejde.',
+        handle: "bistad-honning-125-g",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNTE3NTY1MjM=",
+        images: {
+          __typename: "ImageConnection",
+          edges: [
+            {
+              __typename: "ImageEdge",
+              node: {
+                __typename: "Image",
+                height: 428,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzMzgxNzIxMzk=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/9004005_428x428_f54dee8a-2793-45a0-b44a-06dae594a9f8.webp?v=1653984404",
+                width: 428,
+              },
+            },
+          ],
+        },
+        priceRange: {
+          __typename: "ProductPriceRange",
+          maxVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "12.0",
+            currencyCode: "DKK",
+          },
+          minVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "12.0",
+            currencyCode: "DKK",
+          },
+        },
+        productType: "Fødevare",
+        tags: ["Kolonial", "Mad - Kolinial", "Nyhed"],
+        title: "Bistad Honning (125 g)",
+        variants: {
+          __typename: "ProductVariantConnection",
+          edges: [
+            {
+              __typename: "ProductVariantEdge",
+              node: {
+                __typename: "ProductVariant",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE4OTUzNzUxNQ==",
                 title: "Default Title",
                 availableForSale: true,
                 sku: "",
@@ -1232,77 +1390,6 @@ export const baseProducts = {
     },
     {
       __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTQ2ODc0MDkxLCJsYXN0X3ZhbHVlIjoiMCJ9",
-      node: {
-        __typename: "Product",
-        availableForSale: true,
-        compareAtPriceRange: {
-          __typename: "ProductPriceRange",
-          maxVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "0.0",
-            currencyCode: "DKK",
-          },
-          minVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "0.0",
-            currencyCode: "DKK",
-          },
-        },
-        description:
-          "Glasflaske med trigger/forstøver. Kan bruges til opvaskemiddel, hjemmelavede skønhedsprodukter eller til at vande blomster. Størrelse: 250 ml. Zero Waste",
-        handle: "amber-glasflaske-med-trigger-forstover-250-ml",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNDY4NzQwOTE=",
-        images: {
-          __typename: "ImageConnection",
-          edges: [
-            {
-              __typename: "ImageEdge",
-              node: {
-                __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzMjAzMTM1Nzk=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5405044_2-sw_622x622_a3d8dce7-8018-4b3a-a708-2332b3b83778.jpg?v=1653984126",
-                width: 622,
-              },
-            },
-          ],
-        },
-        priceRange: {
-          __typename: "ProductPriceRange",
-          maxVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "35.0",
-            currencyCode: "DKK",
-          },
-          minVariantPrice: {
-            __typename: "MoneyV2",
-            amount: "35.0",
-            currencyCode: "DKK",
-          },
-        },
-        productType: "Husholdning",
-        tags: ["Boligtilbehør", "Glasflasker og beholdere"],
-        title: "Amber Glasflaske med Trigger - Forstøver (250 ml)",
-        variants: {
-          __typename: "ProductVariantConnection",
-          edges: [
-            {
-              __typename: "ProductVariantEdge",
-              node: {
-                __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE4MzExNDk4Nw==",
-                title: "Default Title",
-                availableForSale: true,
-                sku: "",
-              },
-            },
-          ],
-        },
-      },
-    },
-    {
-      __typename: "ProductEdge",
       cursor: "eyJsYXN0X2lkIjo3NzA5MTQ2MTIwNDI3LCJsYXN0X3ZhbHVlIjoiMCJ9",
       node: {
         __typename: "Product",
@@ -1353,7 +1440,7 @@ export const baseProducts = {
           },
         },
         productType: "Husholdning",
-        tags: ["Boligtilbehør", "Glasflasker og beholdere"],
+        tags: ["Boligtilbehør", "Glasflasker og beholdere", "Nyhed"],
         title: "Glasflaske med Patentlåg (0,5 l)",
         variants: {
           __typename: "ProductVariantConnection",
@@ -1374,10 +1461,10 @@ export const baseProducts = {
     },
     {
       __typename: "ProductEdge",
-      cursor: "eyJsYXN0X2lkIjo3NzA5MTQzMjM2ODQzLCJsYXN0X3ZhbHVlIjoiMCJ9",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MTQ1Mzk5NTMxLCJsYXN0X3ZhbHVlIjoiMCJ9",
       node: {
         __typename: "Product",
-        availableForSale: false,
+        availableForSale: true,
         compareAtPriceRange: {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
@@ -1392,9 +1479,9 @@ export const baseProducts = {
           },
         },
         description:
-          "Uashmama papirsposer er praktisk opbevaringspose fremstillet i miljøvenligt vaskbart papir. Poserne kan bruges til alle former for opbevaring i hjemmet, til potteplanter, kontorartikler, fødevarer eller tøj. Kun fantasien sætter grænser. Poserne er fødevarergodkendt. De er fremstillet i 100% økologisk materiale. Denne pose kan f.eks. bruges til: Bordet og køkkenet (som en brødpose, til sukkerpakker, kaffekapsler eller til frugt og grøntsager) Kontororganisering (blyanter, viskelæder, kunst og håndværk) Badeværelsesorganisering (små håndklæder og hårbørster) Små potteplanter Opbevaring af småt legetøj til børn Hvis du bruger dit UASHMAMA-produkt til urter, planter eller blomster, skal du sørge for at bruge en lille vase eller beholder indeni. Pot ikke direkte i posen.Posen er ikke vandtæt, vand vil ikke skade poserne, men de lækker, så husk at bruge en plantebakke. Hver pose er håndsyet i Italien og dimensionerne kan derfor variere lidt. Vaskeanvisning Kan maskinvaskes på skåneprogram eller i hånden. Vask i varmt vand med mild sæbe eller vaskemiddel. Vi anbefaler at vaske de lysere farver separat, disse farver er designet til at falme. Designet og produceret i Italien. Zero Waste",
-        handle: "uashmama-vaskbar-papirpose-brun-small",
-        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNDMyMzY4NDM=",
+          "Ægte syrisk håndlavet Aleppo olivensæbe med 20% laurbærolie til hænder, krop og ansigt. Sæben er 100% naturlig uden nogen former for kunstige tilsætningsstoffer eller parfumer, og indeholder kun sæbelud, olivenolie og laurbærolie. Laurbærolien gør sæben fed og rig på antioxidanter, der gør sæben særligt velegnet til folk med sart og følsom hud, da den er enormt fugtgivende. At fremstille ægte syrisk sæbe er en meget langsommelig proces, som har fundet sted i Aleppo i Syrien i mere end tusind år. Efter blanding og opkogning af ingredienserne hældes sæben direkte ud på stengulvet, hvor den afkøler og hærder op. Når sæben er fuldstændig afkølet, bliver den skåret op ved håndkraft. Hver eneste stykke bliver herefter stemplet med producentens navn i kalligrafi. Til sidst bliver de færdige sæbestykker stablet i de traditionelle og karakteristiske ’tårne’ ude i det fri, hvor de henstår til endelig ’modning’ i mindst 9 måneder. Under denne proces får sæben sit meget karakteristiske udseende - som en gammel og indtørret ost. Men man skal bestemt ikke lade sig narre, sæben er ganske enkelt helt fantastisk. Husk en sæbeskål til din sæbebar, så den kan tørre ud mellem hvert brug. Læs om 5 lette ændringer som gør dit badeværelse mere bæredygtigt her. Zero Waste",
+        handle: "aleppo-saebe-traditionel-med-20-laurbaerolie-200-g",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNDUzOTk1MzE=",
         images: {
           __typename: "ImageConnection",
           edges: [
@@ -1402,20 +1489,20 @@ export const baseProducts = {
               __typename: "ImageEdge",
               node: {
                 __typename: "Image",
-                height: 610,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzMDM5Mjk1Nzk=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/MCUO_mood.w610.h610.fill_610x610_b95ee7a2-594b-4b19-8808-4fd970fe87f8.jpg?v=1653983811",
-                width: 610,
+                height: 349,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzMTA1MTU5NDc=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/3302203_2-sw_349x349_3857853d-9def-4b90-869a-5a7e44470df9.webp?v=1653983933",
+                width: 349,
               },
             },
             {
               __typename: "ImageEdge",
               node: {
                 __typename: "Image",
-                height: 622,
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzMDM5OTUxMTU=",
-                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/Uashmama-paper-bag-small_622x622_7ded3237-d57f-41e5-b386-ef8b2607cf79.jpg?v=1653983812",
-                width: 622,
+                height: 349,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgzMTA0MTc2NDM=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/3302203-2-sw_349x349_f64cfec7-e6d4-4b86-a577-826e33ae7350.webp?v=1653983933",
+                width: 349,
               },
             },
           ],
@@ -1424,18 +1511,18 @@ export const baseProducts = {
           __typename: "ProductPriceRange",
           maxVariantPrice: {
             __typename: "MoneyV2",
-            amount: "99.0",
+            amount: "49.0",
             currencyCode: "DKK",
           },
           minVariantPrice: {
             __typename: "MoneyV2",
-            amount: "99.0",
+            amount: "49.0",
             currencyCode: "DKK",
           },
         },
-        productType: "Husholdning",
-        tags: ["Boligtilbehør", "Glasflasker og beholdere"],
-        title: "Uashmama - Vaskbar Papirpose Brun - Small",
+        productType: "Personlig pleje",
+        tags: ["Bad og sæbe", "Håndsæbe", "Kropspleje"],
+        title: "Aleppo Sæbe Traditionel med 20% Laurbærolie (200 g)",
         variants: {
           __typename: "ProductVariantConnection",
           edges: [
@@ -1443,10 +1530,162 @@ export const baseProducts = {
               __typename: "ProductVariantEdge",
               node: {
                 __typename: "ProductVariant",
-                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE3NjE2ODE3MQ==",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE3OTczOTg4Mw==",
                 title: "Default Title",
-                availableForSale: false,
-                sku: "29",
+                availableForSale: true,
+                sku: "",
+              },
+            },
+          ],
+        },
+      },
+    },
+    {
+      __typename: "ProductEdge",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MTQxNDM0NjAzLCJsYXN0X3ZhbHVlIjoiMCJ9",
+      node: {
+        __typename: "Product",
+        availableForSale: true,
+        compareAtPriceRange: {
+          __typename: "ProductPriceRange",
+          maxVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.0",
+            currencyCode: "DKK",
+          },
+          minVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.0",
+            currencyCode: "DKK",
+          },
+        },
+        description:
+          'Tast det ønskede antal GRAM (antal 100 = 100 gram) Tryk på antal "10+" for at indtaste det ønskede antal gram. Økologisk afslappende aften te. En blid urtete te som er utrolig velafbalanceret og rund i smagen. Anvendelse: 1 liter kogende vand til 4-5 tsk, lad teen trække 5-10 min. Ingredienser: Citronmelisse, anis, stenkløver, kamille, humle. Opbevares på et køligt, mørkt og tørt sted. Sendes i en papirspose. Læs om 5 lette ændringer som gør dit køkken mere bæredygtigt her. Zero Waste',
+        handle: "okologisk-afslappende-aften-te-i-losvaegt-pris-pr-gram",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxNDE0MzQ2MDM=",
+        images: {
+          __typename: "ImageConnection",
+          edges: [
+            {
+              __typename: "ImageEdge",
+              node: {
+                __typename: "Image",
+                height: 421,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgyOTg3MTk0Njc=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/9405013-sw_421x421_2470f3f5-4cba-4c4b-a12b-536de3119117.webp?v=1653983721",
+                width: 421,
+              },
+            },
+          ],
+        },
+        priceRange: {
+          __typename: "ProductPriceRange",
+          maxVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.49",
+            currencyCode: "DKK",
+          },
+          minVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.49",
+            currencyCode: "DKK",
+          },
+        },
+        productType: "Fødevare",
+        tags: ["Drikkevare", "Kaffe Te og Kakao", "Nyhed"],
+        title: "Økologisk Afslappende Aften Te i løsvægt (pris pr. gram)",
+        variants: {
+          __typename: "ProductVariantConnection",
+          edges: [
+            {
+              __typename: "ProductVariantEdge",
+              node: {
+                __typename: "ProductVariant",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDE3NDE2OTMyMw==",
+                title: "Default Title",
+                availableForSale: true,
+                sku: "",
+              },
+            },
+          ],
+        },
+      },
+    },
+    {
+      __typename: "ProductEdge",
+      cursor: "eyJsYXN0X2lkIjo3NzA5MTI1NzM4NzMxLCJsYXN0X3ZhbHVlIjoiMCJ9",
+      node: {
+        __typename: "Product",
+        availableForSale: true,
+        compareAtPriceRange: {
+          __typename: "ProductPriceRange",
+          maxVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.0",
+            currencyCode: "DKK",
+          },
+          minVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "0.0",
+            currencyCode: "DKK",
+          },
+        },
+        description:
+          "Denne shampoobar er med kamille og kokosolie og velegnet til Curly Girl metoden. Den er vegansk, pH-balanceret og giver håret en masse glans og fugt. Kamille afhjælper irriteret hovedbund, mens kokosolien holder på proteinet og giver fugt. Curly Girl-baren er fri for parabener, sulfater og plast. Alle Curly Girl shampoo- og balsambarer er uden silikone og indeholder ikke SLE/SLES. Shampoobaren kræver ingen tilvænning og er både god for miljøet og vores fælles fremtid. CG-Approved Dansk produceret Ingredienser: Sodium cocoyl isethionate, cocamidopropyl betaine, cocos nucifera, *caprylic capric triglycerides chamomile extract, *brassica oleracea, mangifera indica butter, panthenol, cetrimonium chloride, benzyl alcohol. *= Økologisk",
+        handle: "s-k-shampoobar-neutral-70-g",
+        id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc3MDkxMjU3Mzg3MzE=",
+        images: {
+          __typename: "ImageConnection",
+          edges: [
+            {
+              __typename: "ImageEdge",
+              node: {
+                __typename: "Image",
+                height: 349,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgyNTU2Mjk1NDc=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/1901218-3_349x349_a7efc0ac-2741-4300-861b-d57d0ffbc8df.webp?v=1653982993",
+                width: 349,
+              },
+            },
+            {
+              __typename: "ImageEdge",
+              node: {
+                __typename: "Image",
+                height: 349,
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMzczNDgyNTU1MzEyNDM=",
+                url: "https://cdn.shopify.com/s/files/1/0646/3261/9243/products/1901218-1_349x349_de9e452b-e9db-44cf-ad23-0221fd87c31f.webp?v=1653982993",
+                width: 349,
+              },
+            },
+          ],
+        },
+        priceRange: {
+          __typename: "ProductPriceRange",
+          maxVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "79.0",
+            currencyCode: "DKK",
+          },
+          minVariantPrice: {
+            __typename: "MoneyV2",
+            amount: "79.0",
+            currencyCode: "DKK",
+          },
+        },
+        productType: "Personlig pleje",
+        tags: ["Hår", "Shampoo - Balsam"],
+        title: "S&K - Shampoobar Neutral (70 g)",
+        variants: {
+          __typename: "ProductVariantConnection",
+          edges: [
+            {
+              __typename: "ProductVariantEdge",
+              node: {
+                __typename: "ProductVariant",
+                id: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80Mjg5MDEyODYyMTgwMw==",
+                title: "Default Title",
+                availableForSale: true,
+                sku: "",
               },
             },
           ],
@@ -1463,37 +1702,37 @@ export const baseProducts = {
 
 export const baseCategories = [
   {
-    img: "/images/anh-nguyen.jpg",
+    img: "/images/fødevarer.jpg",
     title: "Fødevare",
     path: "/fodevare",
   },
   {
-    img: "/images/neauthy-skincare.jpg",
+    img: "/images/kropspleje.jpg",
     title: "Kropspleje",
     path: "/personlig-pleje/gavekort",
   },
   {
-    img: "/images/ella-olsson.jpg",
-    title: "Madopbevaring og servering",
-    path: "/husholdning/Madopbevaring",
+    img: "/images/boligtilbehør.jpg",
+    title: "Bolig tilbehør",
+    path: "/husholdning/boligtilbehor",
   },
   {
-    img: "/images/neauthy-skincare.jpg",
+    img: "/images/naturlig-dugt.jpg",
     title: "Naturlig duft",
     path: "/personlig-pleje/Natulige olier & kosmetriske råvare/Naturlig duft",
   },
   {
-    img: "/images/neauthy-skincare.jpg",
+    img: "/images/shampoo-og-balsam.jpg",
     title: "Shampoo - Balsam flydende",
-    path: "/personlig-pleje/har/Shampoo - Balsam flydende",
+    path: "/personlig-pleje/har/shampoo-balsam",
   },
   {
-    img: "/images/ella-olsson.jpg",
-    title: "Opvask",
-    path: "/Husholdning/rengoringOpvask",
+    img: "/images/rengøring.jpg",
+    title: "Rengøring",
+    path: "/husholdning/rengoring",
   },
   {
-    img: "/images/neauthy-skincare.jpg",
+    img: "/images/kosmetik.jpg",
     title: "Kosmetik",
     path: "/personlig-pleje/kosmetik",
   },
@@ -1570,4 +1809,4 @@ export const testimonials = [
   },
 ];
 
-export const tags = ["Tør/moden", "Fedet"];
+export const tags = [];

@@ -37,7 +37,10 @@
     </section>
     <section>
       <SectionHeader title="Nyheder" to="/all"></SectionHeader>
-      <ProductSlider :products="baseProducts.edges"></ProductSlider>
+      <ProductSlider
+        v-if="nyheder"
+        :products="nyheder.products.edges"
+      ></ProductSlider>
     </section>
     <section>
       <SectionHeader title="Kategorier" to="/all" noLink></SectionHeader>
@@ -115,6 +118,8 @@
 </template>
 
 <script setup>
+import { useQuery, useResult } from "@vue/apollo-composable";
+import { collectionByHandle } from "~/apollo/queries/collectionByHandle";
 import { storeToRefs } from "pinia";
 import { useShopStore } from "~/stores/shop";
 import {
@@ -125,7 +130,14 @@ import {
 } from "~/constants";
 
 const shopStore = useShopStore();
-const { description } = storeToRefs(shopStore);
+
+const handle = "nyheder";
+
+const { result, error } = useQuery(collectionByHandle, {
+  handle,
+  numProducts: 12,
+});
+const nyheder = useResult(result, null, (data) => data.collectionByHandle);
 
 onMounted(() => {
   document.body.classList.add("hero-blob");

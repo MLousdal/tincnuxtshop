@@ -5,10 +5,18 @@
     class="addToCartBtn"
     @click="addToCart"
     @keyup.enter="addToCart"
+    :disabled="!product.availableForSale"
     v-if="small"
   />
-  <button @click="addToCart" @keyup.enter="addToCart" v-else>
-    <span>Tilføj til kurv</span>
+  <button
+    @click="addToCart"
+    @keyup.enter="addToCart"
+    v-else
+    :class="{ 'background-error': !product.availableForSale }"
+    :disabled="!product.availableForSale"
+  >
+    <span v-if="!product.availableForSale">Udsolgt</span>
+    <span v-else>Tilføj til kurv</span>
   </button>
 </template>
 

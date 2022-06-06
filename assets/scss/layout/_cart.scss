@@ -1,6 +1,11 @@
 .cart {
   gap: var(--size-5);
 
+  h1 {
+    max-inline-size: none;
+    font-size: var(--font-size-fluid-2);
+  }
+
   &-section {
     display: grid;
     grid-template-columns: auto 40%;

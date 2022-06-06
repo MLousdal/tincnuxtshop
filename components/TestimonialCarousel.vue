@@ -14,7 +14,7 @@ defineProps({
         autoplay: false,
         perPage: 1,
         perMove: 1,
-        pagination: false,
+        pagination: true,
         pauseOnHover: true,
       }"
       aria-label="Testimonials"

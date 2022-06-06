@@ -16,7 +16,7 @@
         Udsolgt
       </div>
     </NuxtLink>
-    <FavoriteBtn />
+    <FavoriteBtn :wishlist="wishlist" />
     <ProductAddToCart
       :product="product"
       small
@@ -41,6 +41,7 @@
 const props = defineProps<{
   product: ProductCard;
   index?: number;
+  wishlist?: boolean;
 }>();
 
 const productPath = `/products/${props.product.handle}`;

@@ -35,15 +35,16 @@ input[type="reset"] {
   }
 }
 
-input:disabled {
-  background-color: var(--gray-6);
+input:disabled,
+button:disabled {
   box-shadow: none;
   cursor: not-allowed;
 
   &:hover,
   &:focus {
-    background-color: var(--gray-6);
+    background-color: var(--gray-3);
     box-shadow: none;
+    color: var(--text-2);
   }
 }
 

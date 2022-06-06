@@ -12,7 +12,7 @@
         v-if="categories"
       ></CategorySlider>
       <section v-if="collection?.products?.edges">
-        <div class="flex flex-between flex-align-center">
+        <div class="filterSection">
           <p class="text-gray">
             {{ collection?.products?.edges.length }} resultater
           </p>
@@ -42,7 +42,6 @@ import { useQuery, useResult } from "@vue/apollo-composable";
 import { collectionByHandle } from "~/apollo/queries/collectionByHandle";
 import { navLinks, tags } from "~/constants";
 
-const route = useRoute();
 const handle = "all";
 
 const { result, error } = useQuery(collectionByHandle, {

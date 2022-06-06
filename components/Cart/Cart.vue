@@ -19,7 +19,13 @@
           :item="item?.node ?? {}"
         />
       </div>
-      <CartCheckout />
+      <!-- <CartCheckout /> -->
+      <NuxtLink
+        to="/bruger/kurv"
+        class="btn text-light fit flex-align-self-end"
+        @click="closeCart"
+        >Gå til kurv</NuxtLink
+      >
     </div>
     <CartBackdrop />
   </section>

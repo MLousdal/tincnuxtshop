@@ -2,6 +2,13 @@
   &__slide {
     max-inline-size: none !important;
     padding-block: var(--size-7);
+    align-items: center;
+  }
+
+  &__pagination__page {
+    &.is-active {
+      background: var(--brand) !important;
+    }
   }
 
   &__track {
@@ -13,7 +20,7 @@
 
     &:hover:not(:disabled),
     &:focus:not(:disabled) {
-      background-color: var(--contrast) !important;
+      background-color: var(--brand) !important;
     }
   }
 

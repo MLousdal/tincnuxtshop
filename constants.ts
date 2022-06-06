@@ -1525,31 +1525,6 @@ export const blogPosts = [
 
 export const testimonials = [
   {
-    date: "23/04/22",
-    img: "/images/irene-strong.jpg",
-    name: "Jerry Motylinski",
-    rating: 5,
-    review:
-      "Meget interessant butik for krævende økologisk orienteret kunder. Anbefales!",
-    verified: true,
-  },
-  {
-    date: "05/10/21",
-    name: "Malene Bech",
-    rating: 4,
-    review: "Meget tæt butik men er flot udnyttet.",
-    verified: true,
-  },
-  {
-    date: "03/10/21",
-    img: "/images/womanA.jpg",
-    name: "Anne K. G. Farcuh",
-    rating: 5,
-    review:
-      "Var der på en søndag, en relativ ung medarbejder ekspederede mig. Hun var meget behjælpelig og kunne svare på alle mine spørgsmål omkring produkterne, meget hjælpsom og flink. Kan kun anbefale butikken 😊",
-    verified: true,
-  },
-  {
     date: "23/09/21",
     img: "/images/jonathan-borba.jpg",
     name: "Rikke Gleerup Lerche",
@@ -1565,6 +1540,32 @@ export const testimonials = [
     rating: 5,
     review:
       "Super skønt specialorretning. Med fantastisk behagelig service. Kan varmt anbefales",
+    verified: true,
+  },
+
+  {
+    date: "03/10/21",
+    img: "/images/womanA.jpg",
+    name: "Anne K. G. Farcuh",
+    rating: 5,
+    review:
+      "Var der på en søndag, en relativ ung medarbejder ekspederede mig. Hun var meget behjælpelig og kunne svare på alle mine spørgsmål omkring produkterne, meget hjælpsom og flink. Kan kun anbefale butikken 😊",
+    verified: true,
+  },
+  {
+    date: "05/10/21",
+    name: "Malene Bech",
+    rating: 4,
+    review: "Meget tæt butik men er flot udnyttet.",
+    verified: true,
+  },
+  {
+    date: "23/04/22",
+    img: "/images/irene-strong.jpg",
+    name: "Jerry Motylinski",
+    rating: 5,
+    review:
+      "Meget interessant butik for krævende økologisk orienteret kunder. Anbefales!",
     verified: true,
   },
 ];

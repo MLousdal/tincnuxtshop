@@ -12,7 +12,7 @@
       <Breadcrumbs />
       <CategorySlider :categories="categories"></CategorySlider>
       <section v-if="collection?.products?.edges">
-        <div class="flex flex-between flex-align-center">
+        <div class="filterSection">
           <p class="text-gray">
             {{ collection?.products?.edges.length }} resultater
           </p>

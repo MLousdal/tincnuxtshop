@@ -8,7 +8,7 @@
           <div class="sub-sub-menu-content">
             <div class="sub-sub-menu-content-filter">
               <p class="text-gray">Shop {{ subMenu.title }}</p>
-              <div class="flex flex-column flex-gap-2">
+              <div class="flex flex-column flex-gap-1">
                 <NuxtLink :to="subMenu.path">Nyheder</NuxtLink>
                 <NuxtLink :to="subMenu.path">Tilbud</NuxtLink>
                 <NuxtLink :to="subMenu.path">Gaveideer</NuxtLink>
@@ -16,7 +16,7 @@
             </div>
             <div class="sub-sub-menu-content-categories">
               <p class="text-gray">Shop efter kategori</p>
-              <div class="flex flex-column flex-gap-2">
+              <div class="flex flex-column flex-gap-1">
                 <NuxtLink
                   v-for="subSubMenu in subMenu.subSubMenus"
                   :to="subSubMenu.path"
@@ -34,6 +34,13 @@
           </div>
         </div>
       </div>
+    </div>
+    |
+    <div class="sub-menu">
+      <a class="underline">Blog</a>
+    </div>
+    <div class="sub-menu">
+      <a class="underline">Om TINC</a>
     </div>
   </nav>
   <nav class="mobile-nav-links" v-show="menuOpen && !state.isDesktop">

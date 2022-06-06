@@ -1,12 +1,19 @@
 <script setup>
-// defineProps({
-//   favorite: Boolean,
-// });
+defineProps({
+  wishlist: Boolean,
+});
 
 const state = reactive({ wishlisted: false });
 </script>
 
 <template>
+  <input
+    type="image"
+    src="/icons/close.svg"
+    alt=""
+    class="favoriteBtn"
+    v-if="wishlist"
+  />
   <input
     type="image"
     :src="
@@ -15,5 +22,6 @@ const state = reactive({ wishlisted: false });
     alt=""
     class="favoriteBtn"
     @click="state.wishlisted = !state.wishlisted"
+    v-else
   />
 </template>

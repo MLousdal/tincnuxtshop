@@ -189,7 +189,7 @@
     color: var(--yellow-5);
   }
   &error {
-    color: var(--red-5);
+    color: var(--system-red);
   }
 }
 
@@ -227,7 +227,7 @@
     color: var(--gray-0);
   }
   &error {
-    background-color: var(--red-5);
+    background-color: var(--system-red);
     color: var(--gray-0);
   }
 }

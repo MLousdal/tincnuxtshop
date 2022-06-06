@@ -20,8 +20,8 @@
             <div>{{ option.value }}</div>
           </template>
         </div>
-        <div class="text-4 bold">{{ formattedPrice }}</div>
-        <div>QTY: {{ item.quantity }}</div>
+        <div class="text-3 bold">{{ formattedPrice }}</div>
+        <div>Antal: {{ item.quantity }}</div>
       </div>
       <input
         type="image"

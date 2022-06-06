@@ -20,6 +20,7 @@
 
     h1 {
       max-inline-size: none;
+      font-size: var(--font-size-fluid-2);
     }
   }
 
@@ -67,6 +68,8 @@
 
     button,
     .favoriteBtn {
+      padding: var(--size-2);
+      border: none;
       border-radius: 0;
       height: 100%;
       width: 100%;

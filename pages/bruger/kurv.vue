@@ -36,7 +36,7 @@ const giftAmount = ref(0);
               <div class="product-text">
                 <h5>Lille gratis gave - 1 pr. køb</h5>
                 <div class="text-4 bold">DKK 0.00</div>
-                <div>QTY: {{ giftAmount }}</div>
+                <div>Antal: {{ giftAmount }}</div>
               </div>
               <input
                 type="image"
@@ -61,7 +61,7 @@ const giftAmount = ref(0);
               >{{
                 formatLocalePrice(
                   item.node.estimatedCost.subtotalAmount.amount,
-                  "en-US",
+                  "da-DK",
                   item.node.estimatedCost.subtotalAmount.currencyCode
                 )
               }}

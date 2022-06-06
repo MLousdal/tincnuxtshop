@@ -20,7 +20,7 @@
         {{ subtotalAmount }}
       </p>
     </div>
-    <div class="flex flex-between">
+    <!-- <div class="flex flex-between">
       <p>Estimeret Skat:</p>
       <p>
         {{ totalTaxAmount }}
@@ -31,7 +31,7 @@
       <p>
         {{ totalDutyAmount }}
       </p>
-    </div>
+    </div> -->
     <label for="shipping"
       ><span>
         Handel for
@@ -68,6 +68,7 @@
 <script setup lang="ts">
 import { storeToRefs } from "pinia";
 import { useCartStore } from "~/stores/cart";
+import { formatLocalePrice } from "~/utils/money";
 
 const cartStore = useCartStore();
 const { subtotalAmount, totalTaxAmount, totalDutyAmount, totalAmount } =

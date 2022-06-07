@@ -127,7 +127,7 @@ const state = reactive({
 });
 
 function updateIsDesktop() {
-  const mediaQuery = window.matchMedia("(max-width: 1210px)");
+  const mediaQuery = window.matchMedia("(max-width: 1280px)");
 
   if (mediaQuery.matches) {
     state.isDesktop = false;

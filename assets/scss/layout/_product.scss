@@ -99,3 +99,29 @@
     cursor: pointer;
   }
 }
+
+.tooltip {
+  position: relative;
+
+  &:hover &-content,
+  &:focus &-content {
+    display: block;
+  }
+
+  &-content {
+    display: none;
+    position: absolute;
+    top: -30%;
+    left: 15%;
+    width: 10rem;
+    background-color: var(--surface-1);
+    padding: var(--size-2);
+    border-radius: var(--radius-3);
+    box-shadow: var(--shadow-3);
+    z-index: 3;
+
+    p {
+      font-size: var(--font-size-1);
+    }
+  }
+}

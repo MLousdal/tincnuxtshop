@@ -1,26 +1,35 @@
 <script setup>
-import { reactive } from "vue";
+defineEmits(["direction"]);
+defineProps(["selected"]);
 
-const state = reactive({ filters: 3 });
-
-function increment() {
-  state.filters++;
-}
+const options = [
+  { value: "BEST_SELLING", label: "Mest populære" },
+  { value: "CREATED", label: "Nyeste" },
+  { value: "PRICE", label: "Pris stigende" },
+  { value: "PRICE_REVERSE", label: "Pris faldende" },
+  { value: "TITLE", label: "A - Z" },
+  { value: "TITLE_REVERSE", label: "Z - A" },
+];
 </script>
 
 <template>
   <div class="flex flex-gap-1">
-    <button @click="increment" class="filter-btn">
-      <img src="/icons/filter.svg" alt="" /> Filter ({{ state.filters }})
+    <button class="filter-btn">
+      <img src="/icons/filter.svg" alt="" /> Filter (0)
     </button>
-    <select name="sorting-rules" id="sorting" class="filter-select">
-      <option value="pop">Mest populære</option>
-      <option value="new">Nyeste</option>
-      <option value="dis">Tilbud</option>
-      <option value="rise">Pris stigende</option>
-      <option value="fall">Pris faldende</option>
-      <option value="AZ">A-Å</option>
-      <option value="ZA">Å-A</option>
+    <select
+      name="sorting-rules"
+      id="sorting"
+      class="filter-select"
+      @change="$emit('direction', $event.target.value)"
+    >
+      <option
+        :value="option.value"
+        :selected="option.value === selected"
+        v-for="option in options"
+      >
+        {{ option.label }}
+      </option>
     </select>
   </div>
 </template>

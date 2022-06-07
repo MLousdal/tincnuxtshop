@@ -16,7 +16,7 @@
           <p class="text-gray">
             {{ collection?.products?.edges.length }} resultater
           </p>
-          <Filter></Filter>
+          <Filter @direction="sortCollection" :selected="selected"></Filter>
         </div>
         <div class="flex flex-gap-1">
           <Tag v-for="tag in tags" :filter="tag"></Tag>
@@ -44,17 +44,38 @@ import { navLinks, tags } from "~/constants";
 
 const route = useRoute();
 const handle = route.params.collection;
+const sortKey = ref("BEST_SELLING");
+const reverse = ref(false);
+const selected = ref("BEST_SELLING");
 
 const { result, error } = useQuery(collectionByHandle, {
   handle,
+  sortKey,
+  reverse,
   numProducts: 48,
 });
 const collection = useResult(result, null, (data) => data.collectionByHandle);
 
+function sortCollection(sortdirection: string) {
+  sortKey.value = sortdirection;
+  selected.value = sortdirection;
+
+  if (sortdirection === "PRICE_REVERSE") {
+    sortKey.value = "PRICE";
+  }
+  if (sortdirection === "TITLE_REVERSE") {
+    sortKey.value = "TITLE";
+  }
+  if (sortdirection === "PRICE_REVERSE" || sortdirection === "TITLE_REVERSE") {
+    reverse.value = true;
+    return;
+  }
+  reverse.value = false;
+}
+
 const categoryLinks = navLinks.find(
   (link) => link.path.split("/")[link.path.split("/").length - 1] == handle
 );
-
 const categories = categoryLinks.subMenus;
 
 // For at hente alle de anvendte tags i kollektionen ville jeg have anvendt denne funktion,

@@ -25,8 +25,13 @@ export const navLinks = [
             path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
           {
+            img: "/images/bad-og-sæbe.jpg",
+            title: "Kropssæbe",
+            path: "/personlig-pleje/bad-og-saebe/gavekort",
+          },
+          {
             img: "/images/sæbeskåle.jpg",
-            title: "Sæber og sæbeskåle",
+            title: "Sæbeskåle",
             path: "/personlig-pleje/bad-og-saebe/gavekort",
           },
         ],
@@ -203,14 +208,34 @@ export const navLinks = [
         subSubMenus: [
           {
             img: "/images/tandpleje.jpg",
-            title: "Tandpleje",
+            title: "Tandbørster",
+            path: "/personlig-pleje/tandpleje/tandpleje",
+          },
+          {
+            img: "/images/tandpleje.jpg",
+            title: "Tandpasta",
+            path: "/personlig-pleje/tandpleje/tandpleje",
+          },
+          {
+            img: "/images/tandpleje.jpg",
+            title: "Denttaps",
+            path: "/personlig-pleje/tandpleje/tandpleje",
+          },
+          {
+            img: "/images/tandpleje.jpg",
+            title: "Tandtråd & Tandstiller",
+            path: "/personlig-pleje/tandpleje/tandpleje",
+          },
+          {
+            img: "/images/tandpleje.jpg",
+            title: "Tilbehør",
             path: "/personlig-pleje/tandpleje/tandpleje",
           },
         ],
       },
       {
         img: "/images/naturlige-olier-og-kosmetiske-råvarer.jpg",
-        title: "Natulige olier & kosmetriske råvare",
+        title: "Naturlige olier & kosmetriske råvarer",
         path: "/personlig-pleje/gavekort",
         subSubMenus: [
           {
@@ -238,6 +263,11 @@ export const navLinks = [
           {
             img: "/images/rondeller-og-vatpinde.jpg",
             title: "Vatpinde og ørerensere",
+            path: "/personlig-pleje/gavekort/gavekort",
+          },
+          {
+            img: "/images/rondeller-og-vatpinde.jpg",
+            title: "Rondeller",
             path: "/personlig-pleje/gavekort/gavekort",
           },
         ],
@@ -298,16 +328,11 @@ export const navLinks = [
             title: "Køkkentilbehør",
             path: "/husholdning/gavekort/gavekort",
           },
-          {
-            img: "/images/ella-olsson.jpg",
-            title: "Sugerør",
-            path: "/husholdning/gavekort/gavekort",
-          },
         ],
       },
       {
         img: "/images/ella-olsson.jpg",
-        title: "Madopbevaring",
+        title: "Madopbevaring & servering",
         path: "/husholdning/gavekort",
         subSubMenus: [
           {
@@ -320,11 +345,16 @@ export const navLinks = [
             title: "Madkasser",
             path: "/husholdning/gavekort/gavekort",
           },
+          {
+            img: "/images/ella-olsson.jpg",
+            title: "Sugerør",
+            path: "/husholdning/gavekort/gavekort",
+          },
         ],
       },
       {
         img: "/images/rengøring.jpg",
-        title: "Rengøring(sartikler)",
+        title: "Rengøring",
         path: "/husholdning/rengoring",
         subSubMenus: [
           {
@@ -379,7 +409,7 @@ export const navLinks = [
     ],
   },
   {
-    title: "Fødevare",
+    title: "Fødevarer",
     path: "/fodevare",
     img: "/images/fødevarer.jpg",
     subMenus: [
@@ -417,12 +447,12 @@ export const navLinks = [
       },
       {
         img: "/images/Drikkevarer.jpg",
-        title: "Drikkevare",
+        title: "Drikkevarer",
         path: "/fodevare/drikkevare",
         subSubMenus: [
           {
             img: "/images/Drikkevarer.jpg",
-            title: "drikkevarer",
+            title: "Drikkevarer",
             path: "/fodevare/drikkevare/gavekort",
           },
           {

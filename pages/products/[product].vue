@@ -35,7 +35,13 @@
               v-html="product.descriptionHtml"
               class="flex flex-column flex-gap-1"
             ></div>
-            <div class="flex flex-align-center flex-gap-1">
+            <div
+              class="flex flex-align-center flex-gap-1"
+              v-if="
+                product.tags.includes('Nøglehulsmærke') ||
+                product.tags.includes('Svanemærke')
+              "
+            >
               <div class="tooltip" v-if="product.tags.includes('Svanemærke')">
                 <div class="tooltip-content">
                   <p>

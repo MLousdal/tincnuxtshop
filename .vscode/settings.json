@@ -2,5 +2,6 @@
   "volar.codeLens.scriptSetupTools": true,
   "scss.lint.unknownAtRules": "ignore",
   "css.lint.unknownAtRules": "ignore",
-  "volar.formatting.printWidth": 120
+  "volar.formatting.printWidth": 120,
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

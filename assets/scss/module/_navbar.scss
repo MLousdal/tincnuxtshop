@@ -12,7 +12,7 @@
   width: 100%;
   z-index: 5;
 
-  @media (max-width: 1210px) {
+  @media (max-width: 1280px) {
     gap: var(--size-5);
     justify-content: space-between;
     padding-block: var(--size-2);
@@ -33,7 +33,7 @@
   gap: var(--size-4);
 
   a {
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
     font-size: var(--font-size-2);
     height: fit-content;
     transition: font-weight 0.2s linear;
@@ -53,7 +53,7 @@
   gap: var(--size-5);
   margin-left: auto;
 
-  @media (max-width: 1210px) {
+  @media (max-width: 1280px) {
     margin-left: 0;
   }
 

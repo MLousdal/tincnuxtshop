@@ -35,13 +35,29 @@
               v-html="product.descriptionHtml"
               class="flex flex-column flex-gap-1"
             ></div>
-            <ul class="product-page-list">
-              <li>Zero waste</li>
-              <li>Vegansk / vegan</li>
-            </ul>
             <div class="flex flex-align-center flex-gap-1">
-              <img src="/images/svanemærke.png" alt="" class="icon-l" />
-              <img src="/images/nøglehulmærke.png" alt="" class="icon-l" />
+              <div class="tooltip" v-if="product.tags.includes('Svanemærke')">
+                <div class="tooltip-content">
+                  <p>
+                    Målet med Svanemærket er at mindske den samlede
+                    miljøbelastning fra produktion og forbrug
+                  </p>
+                </div>
+                <img src="/images/svanemærke.png" alt="" class="icon-l" />
+              </div>
+              <div
+                class="tooltip"
+                v-if="product.tags.includes('Nøglehulsmærke')"
+              >
+                <div class="tooltip-content">
+                  <p>
+                    For at få "nøglehullet" på en fødevare skal den leve op til
+                    krav om mange kostfibre og med mindre indhold af fedt,
+                    mættet fedt, sukker og salt
+                  </p>
+                </div>
+                <img src="/images/nøglehulmærke.png" alt="" class="icon-l" />
+              </div>
             </div>
             <div class="flex flex-between flex-align-center">
               <div class="flex flex-column flex-gap-2">

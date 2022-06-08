@@ -6,6 +6,10 @@
   display: flex;
   gap: var(--size-2);
 
+  p {
+    white-space: nowrap;
+  }
+
   input {
     all: initial;
     cursor: pointer;

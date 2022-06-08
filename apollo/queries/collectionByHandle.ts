@@ -6,6 +6,7 @@ export const collectionByHandle = gql`
     $numProducts: Int
     $sortKey: ProductCollectionSortKeys
     $reverse: Boolean
+    $filters: [ProductFilter!]
   ) {
     collectionByHandle(handle: $handle) {
       description
@@ -19,7 +20,12 @@ export const collectionByHandle = gql`
         width
       }
       title
-      products(first: $numProducts, sortKey: $sortKey, reverse: $reverse) {
+      products(
+        first: $numProducts
+        sortKey: $sortKey
+        reverse: $reverse
+        filters: $filters
+      ) {
         edges {
           cursor
           node {

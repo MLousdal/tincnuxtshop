@@ -16,10 +16,38 @@
           <p class="text-gray">
             {{ collection?.products?.edges.length }} resultater
           </p>
-          <Filter @direction="sortCollection" :selected="selected"></Filter>
+          <Filter
+            @direction="sortCollection"
+            @newFilters="setFilters"
+            :selected="selected"
+            :filters="filters"
+          ></Filter>
         </div>
-        <div class="flex flex-gap-1">
-          <Tag v-for="tag in tags" :filter="tag"></Tag>
+        <div class="flex flex-gap-1 flex-wrap">
+          <Tag
+            v-if="filters[0].price.min != 0"
+            :filter="filters[0].price.min"
+            @emit="setPriceMin(0)"
+            >Mindste pris:
+          </Tag>
+          <Tag
+            v-if="filters[0].price.max != 999"
+            :filter="filters[0].price.max"
+            @emit="setPriceMax(999)"
+            >Max pris:
+          </Tag>
+          <Tag
+            v-if="filters[1].productType"
+            :filter="filters[1].productType"
+            @emit="setType(null)"
+            >Produkt type:
+          </Tag>
+          <Tag
+            v-if="filters[2].productVendor"
+            :filter="filters[2].productVendor"
+            @emit="setVendor(null)"
+            >Brand</Tag
+          >
         </div>
         <ProductGrid>
           <ProductCard
@@ -40,7 +68,7 @@
 <script setup lang="ts">
 import { useQuery, useResult } from "@vue/apollo-composable";
 import { collectionByHandle } from "~/apollo/queries/collectionByHandle";
-import { navLinks, tags } from "~/constants";
+import { navLinks } from "~/constants";
 
 const route = useRoute();
 const handle = route.params.collection;
@@ -48,10 +76,17 @@ const sortKey = ref("BEST_SELLING");
 const reverse = ref(false);
 const selected = ref("BEST_SELLING");
 
+const filters = reactive([
+  { price: { min: 0, max: 999 } },
+  { productType: null },
+  { productVendor: null },
+]);
+
 const { result, error } = useQuery(collectionByHandle, {
   handle,
   sortKey,
   reverse,
+  filters,
   numProducts: 48,
 });
 const collection = useResult(result, null, (data) => data.collectionByHandle);
@@ -73,20 +108,30 @@ function sortCollection(sortdirection: string) {
   reverse.value = false;
 }
 
+function setFilters(value: Array<object>) {
+  setPriceMin(value[0].price.min);
+  setPriceMax(value[0].price.max);
+  setType(value[1].productType);
+  setVendor(value[2].productVendor);
+}
+
+function setPriceMin(value: number) {
+  filters[0].price.min = value;
+}
+function setPriceMax(value: number) {
+  filters[0].price.max = value;
+}
+
+function setType(value: string) {
+  filters[1].productType = value;
+}
+
+function setVendor(value: string) {
+  filters[2].productVendor = value;
+}
+
 const categoryLinks = navLinks.find(
   (link) => link.path.split("/")[link.path.split("/").length - 1] == handle
 );
 const categories = categoryLinks.subMenus;
-
-// For at hente alle de anvendte tags i kollektionen ville jeg have anvendt denne funktion,
-// som laver et array af produkterne, og looper over dem, og kigger på deres tags.
-// Hvorefter den igen looper over disse tags og tjekker om tagget findes på tagArray og tilføjer dem hvis de ikke er
-
-// let tagArray = []
-// const edgesArray = Array.from(collection?.value.products.edges);
-// edgesArray.forEach(edge => {
-//   edge.node.tags.forEach(tag) => {
-//     tagArray.indexOf(tag) === -1 ? tagArray.push(tag) : console.log(tag, "already added");
-//   }
-// });
 </script>

@@ -1,12 +1,10 @@
 <script setup>
-defineProps({
-  filter: { type: String, required: true },
-});
+defineProps(["filter"]);
 </script>
 
 <template>
   <div class="tag">
-    <p>{{ filter }}</p>
-    <input type="image" src="/icons/close.svg" />
+    <p><slot></slot> {{ filter }}</p>
+    <input type="image" src="/icons/close.svg" @click="$emit('emit')" />
   </div>
 </template>

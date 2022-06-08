@@ -12,7 +12,7 @@
       <div class="hero-banner">
         <h1>Start din rejse mod en grønnere hverdag hos TINC</h1>
         <img src="/images/hero1.jpg" alt="" class="hero-img-1 flip-horizon" />
-        <img src="/images/hero2.png" alt="" class="hero-img-2" />
+        <img src="/images/hero2.jpg" alt="" class="hero-img-2" />
         <NuxtLink class="btn flex flex-gap-2 hero-btn" to="/all"
           ><span class="text-nowrap">Shop bæredygtigt</span>
           <img src="/icons/arrow-small.svg" alt=""

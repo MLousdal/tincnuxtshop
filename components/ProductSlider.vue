@@ -3,6 +3,7 @@ import { Splide, SplideSlide } from "@splidejs/vue-splide";
 
 defineProps({
   products: { type: Object, required: true },
+  lastSeen: { type: Boolean, default: false },
 });
 </script>
 
@@ -30,6 +31,13 @@ defineProps({
     >
       <SplideSlide v-for="(product, index) in products">
         <ProductCard
+          :index="index"
+          :key="product.id"
+          :product="product"
+          v-if="lastSeen"
+        />
+        <ProductCard
+          v-else
           :index="index"
           :key="product.node.id"
           :product="product.node"

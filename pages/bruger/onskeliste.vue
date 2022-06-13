@@ -1,9 +1,8 @@
 <script setup>
-import { wishProducts, baseProducts } from "~/constants";
-
-const tags = ["Tør/moden", "Fedet"];
-
-const state = reactive({ desktop: true });
+import { wishProducts } from "~/constants";
+import { useLastSeenStore } from "~/stores/lastSeen";
+const lastSeenStore = useLastSeenStore();
+const lastSeenProducts = computed(() => lastSeenStore.lastSeenProducts);
 </script>
 
 <template>
@@ -31,7 +30,7 @@ const state = reactive({ desktop: true });
     <hr />
     <section>
       <SectionHeader title="Sidst set" to="/all"></SectionHeader>
-      <ProductSlider :products="baseProducts.edges"></ProductSlider>
+      <ProductSlider :products="lastSeenProducts" last-seen></ProductSlider>
     </section>
   </div>
 </template>

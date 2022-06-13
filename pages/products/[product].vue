@@ -85,7 +85,7 @@
       <hr />
       <section>
         <SectionHeader title="Sidst set" to="/all"></SectionHeader>
-        <ProductSlider :products="baseProducts.edges"></ProductSlider>
+        <ProductSlider :products="lastSeenProducts" lastSeen></ProductSlider>
       </section>
     </div>
     <div v-else>Loading</div>
@@ -98,6 +98,8 @@ import { useQuery, useResult } from "@vue/apollo-composable";
 import { productByHandle } from "~/apollo/queries/productByHandle";
 import { productVariantsByHandle } from "~/apollo/queries/productVariantsByHandle";
 import { baseProducts } from "~/constants";
+
+import { useLastSeenStore } from "~/stores/lastSeen";
 
 const route = useRoute();
 const handle = route.params.product;
@@ -127,4 +129,22 @@ onMounted(() => {
   );
   variants.value = clientVariants;
 });
+
+const lastSeenStore = useLastSeenStore();
+const lastSeenProducts = computed(() => lastSeenStore.lastSeenProducts);
+
+function addToLastSeen(product: object) {
+  if (
+    lastSeenProducts.value.some(
+      (lastSeenProduct) => lastSeenProduct.id === product.id
+    )
+  ) {
+    return;
+  }
+  lastSeenStore.addLastSeenProducts(product);
+}
+watch(
+  () => product.value,
+  () => addToLastSeen(product.value)
+);
 </script>

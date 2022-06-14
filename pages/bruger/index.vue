@@ -1,4 +1,22 @@
-<script setup></script>
+<script setup>
+import { getAuth, signOut } from "firebase/auth";
+
+let auth;
+
+onMounted(() => {
+  auth = getAuth();
+});
+function logout() {
+  signOut(auth)
+    .then(() => {
+      // Sign-out successful.
+      console.log("logged out");
+    })
+    .catch((error) => {
+      // An error happened.
+    });
+}
+</script>
 
 <template>
   <div class="profile">
@@ -28,7 +46,7 @@
             >Hjælp og kontakt <img src="/icons/arrow.svg" alt=""
           /></NuxtLink>
         </nav>
-        <button class="outline">Log ud</button>
+        <button class="outline" @click="logout">Log ud</button>
       </div>
       <div class="right">
         <section class="spotlight">

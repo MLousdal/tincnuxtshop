@@ -16,8 +16,8 @@
 </template>
 
 <script lang="ts" setup>
-import { useShopStore } from "~/stores/shop";
 import { initializeApp } from "firebase/app";
+import { useShopStore } from "~/stores/shop";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCsctoSQ9-Hmxzz1tP3dCUIh425CaqIHis",

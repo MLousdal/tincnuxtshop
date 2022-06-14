@@ -65,6 +65,19 @@
         hue-rotate(44deg) brightness(89%) contrast(89%);
     }
   }
+
+  &-text {
+    background: none !important;
+    box-shadow: none !important;
+    color: var(--text-2) !important;
+    padding: 0;
+    transition: font-weight linear 0.2s;
+
+    &:hover,
+    &:focus {
+      font-weight: var(--font-weight-7);
+    }
+  }
 }
 
 .sub-menu {

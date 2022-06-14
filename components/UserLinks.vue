@@ -14,6 +14,9 @@
     >
       register
     </button>
+    <button class="user-links-text" @click="logout" v-if="state.user">
+      logout
+    </button>
     <NuxtLink
       to="/bruger"
       aria-label="Bruger"
@@ -40,12 +43,14 @@
 </template>
 
 <script setup>
-import { getAuth, onAuthStateChanged } from "firebase/auth";
+import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 
 const state = ref({ user: null, login: false, register: false });
 
+let auth;
+
 onMounted(() => {
-  const auth = getAuth();
+  auth = getAuth();
   state.value.user = auth.currentUser;
   onAuthStateChanged(auth, (user) => {
     if (user) {
@@ -55,6 +60,17 @@ onMounted(() => {
     }
   });
 });
+
+function logout() {
+  signOut(auth)
+    .then(() => {
+      // Sign-out successful.
+      console.log("logged out");
+    })
+    .catch((error) => {
+      // An error happened.
+    });
+}
 
 function registerModuleToggle() {
   state.value.register = !state.value.register;

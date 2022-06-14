@@ -17,6 +17,18 @@
 
 <script lang="ts" setup>
 import { useShopStore } from "~/stores/shop";
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCsctoSQ9-Hmxzz1tP3dCUIh425CaqIHis",
+  authDomain: "tinc-nuxtshop.firebaseapp.com",
+  projectId: "tinc-nuxtshop",
+  storageBucket: "tinc-nuxtshop.appspot.com",
+  messagingSenderId: "783164830716",
+  appId: "1:783164830716:web:1c284bac2e296c526c7879",
+};
+
+const app = initializeApp(firebaseConfig);
 
 useMeta({
   htmlAttrs: {

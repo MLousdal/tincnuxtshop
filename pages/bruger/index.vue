@@ -1,5 +1,9 @@
 <script setup>
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
+import { useWishlistStore } from "~/stores/wishlist";
+
+const wishlistStore = useWishlistStore();
+const wishlistProducts = computed(() => wishlistStore.wishlist);
 const router = useRouter();
 let auth;
 
@@ -86,15 +90,8 @@ function logout() {
           </header>
           <div class="flex flex-gap-2 wide">
             <img
-              src="https://cdn.shopify.com/s/files/1/0646/3261/9243/products/1904078_349x349_0b0a24f7-0c8c-4c77-86fb-bf213b9c80b7.webp?v=1653984467"
-              alt=""
-            />
-            <img
-              src="https://cdn.shopify.com/s/files/1/0646/3261/9243/products/5706077-1_622x622_6cff7484-9f6e-475d-9152-1d12a479d5e9.jpg?v=1653984780"
-              alt=""
-            />
-            <img
-              src="https://cdn.shopify.com/s/files/1/0646/3261/9243/products/Saebenodder_622x622_03f8b8a9-0ed5-490f-bb62-4503d7c71303.jpg?v=1653985285"
+              v-for="product in wishlistProducts"
+              :src="product.images.edges[0].node.url"
               alt=""
             />
           </div>

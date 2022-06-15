@@ -16,7 +16,7 @@
         Udsolgt
       </div>
     </NuxtLink>
-    <FavoriteBtn :wishlist="wishlist" />
+    <FavoriteBtn :wishlist="wishlist" :product="product" />
     <ProductAddToCart
       :product="product"
       small

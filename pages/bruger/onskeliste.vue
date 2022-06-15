@@ -1,7 +1,9 @@
 <script setup>
-import { wishProducts } from "~/constants";
+import { useWishlistStore } from "~/stores/wishlist";
 import { useLastSeenStore } from "~/stores/lastSeen";
-import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
+import { getAuth, onAuthStateChanged } from "firebase/auth";
+const wishlistStore = useWishlistStore();
+const wishlistProducts = computed(() => wishlistStore.wishlist);
 
 let auth;
 
@@ -38,7 +40,7 @@ const lastSeenProducts = computed(() => lastSeenStore.lastSeenProducts);
     </header>
     <ProductGrid>
       <ProductCard
-        v-for="(product, index) in wishProducts.edges"
+        v-for="(product, index) in wishlistProducts"
         :index="index"
         :key="product.id"
         :product="product"

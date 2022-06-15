@@ -1,6 +1,6 @@
 <script setup>
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
-
+const router = useRouter();
 let auth;
 
 const state = ref({ user: null });
@@ -18,13 +18,13 @@ onMounted(() => {
 });
 function logout() {
   signOut(auth)
-    .then(() => console.log("logged out"))
+    .then(() => router.push("/"))
     .catch((error) => console.log(error));
 }
 </script>
 
 <template>
-  <div class="profile">
+  <div class="profile" v-if="state.user">
     <Html>
       <Head>
         <Title>
@@ -33,9 +33,7 @@ function logout() {
       </Head>
     </Html>
     <header>
-      <h1 class="text-brand" v-if="state.user">
-        {{ state.user.displayName }}'s profil
-      </h1>
+      <h1 class="text-brand">{{ state.user.displayName }}'s profil</h1>
     </header>
     <section class="profile-section">
       <div class="left">
@@ -109,5 +107,9 @@ function logout() {
         </section>
       </div>
     </section>
+  </div>
+  <div v-else class="profile">
+    <h1>Ingen bruger fundet</h1>
+    <p>Gå til <NuxtLink to="/" class="bold">forsiden</NuxtLink></p>
   </div>
 </template>

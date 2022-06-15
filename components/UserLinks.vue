@@ -46,7 +46,7 @@
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 
 const state = ref({ user: null, login: false, register: false });
-
+const router = useRouter();
 let auth;
 
 onMounted(() => {
@@ -64,12 +64,9 @@ onMounted(() => {
 function logout() {
   signOut(auth)
     .then(() => {
-      // Sign-out successful.
-      console.log("logged out");
+      router.push("/");
     })
-    .catch((error) => {
-      // An error happened.
-    });
+    .catch((error) => {});
 }
 
 function registerModuleToggle() {

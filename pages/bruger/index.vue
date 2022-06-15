@@ -1,20 +1,25 @@
 <script setup>
-import { getAuth, signOut } from "firebase/auth";
+import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 
 let auth;
 
+const state = ref({ user: null });
+
 onMounted(() => {
   auth = getAuth();
+  state.value.user = auth.currentUser;
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      state.value.user = user;
+    } else {
+      state.value.user = null;
+    }
+  });
 });
 function logout() {
   signOut(auth)
-    .then(() => {
-      // Sign-out successful.
-      console.log("logged out");
-    })
-    .catch((error) => {
-      // An error happened.
-    });
+    .then(() => console.log("logged out"))
+    .catch((error) => console.log(error));
 }
 </script>
 
@@ -28,7 +33,9 @@ function logout() {
       </Head>
     </Html>
     <header>
-      <h1 class="text-brand">Profil</h1>
+      <h1 class="text-brand" v-if="state.user">
+        {{ state.user.displayName }}'s profil
+      </h1>
     </header>
     <section class="profile-section">
       <div class="left">

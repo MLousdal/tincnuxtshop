@@ -46,7 +46,11 @@
 </template>
 
 <script setup>
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+  updateProfile,
+} from "firebase/auth";
 const emit = defineEmits(["closeModal"]);
 
 const registerData = ref({
@@ -64,6 +68,17 @@ function register(payload) {
   createUserWithEmailAndPassword(auth, payload.email, payload.password)
     .then((userCredential) => {
       // Signed in
+      updateProfile(auth.currentUser, {
+        displayName: payload.name,
+      })
+        .then(() => {
+          // Profile updated!
+          // ...
+        })
+        .catch((error) => {
+          // An error occurred
+          // ...
+        });
       const user = userCredential.user;
       console.log(user);
     })

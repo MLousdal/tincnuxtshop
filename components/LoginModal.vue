@@ -9,7 +9,6 @@
         @click="$emit('closeModal')"
       />
     </div>
-
     <form action="">
       <label for="LoginEmail"
         >Email:
@@ -33,17 +32,30 @@
       </label>
       <input type="submit" @click.prevent="login(loginData)" />
     </form>
+    <hr />
+    <button @click="facebookLogin">Login with Facebook</button>
   </div>
 </template>
 
 <script setup>
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import {
+  getAuth,
+  signInWithEmailAndPassword,
+  FacebookAuthProvider,
+  signInWithRedirect,
+} from "firebase/auth";
 const emit = defineEmits(["closeModal"]);
+const provider = new FacebookAuthProvider();
 
 const loginData = ref({
   password: "",
   email: "",
 });
+
+function facebookLogin() {
+  const auth = getAuth();
+  signInWithRedirect(auth, provider);
+}
 
 function login(payload) {
   if (Object.values(payload).some((pl) => pl === "")) {
